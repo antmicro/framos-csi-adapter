@@ -15,13 +15,9 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	13250 1900 12975 1900
-Wire Wire Line
-	13250 2100 12875 2100
-Wire Wire Line
-	13250 2000 12875 2000
-Text GLabel 12875 2400 0    50   BiDi ~ 0
+Text GLabel 12225 3000 0    50   BiDi ~ 0
 CSI_D0_P
-Text GLabel 12875 2300 0    50   BiDi ~ 0
+Text GLabel 12225 2900 0    50   BiDi ~ 0
 CSI_D0_N
 Wire Wire Line
 	12975 1900 12975 2200
@@ -43,29 +39,15 @@ Wire Wire Line
 Wire Wire Line
 	12975 2800 12975 3100
 Connection ~ 12975 3100
-Wire Wire Line
-	12975 3100 12975 3300
-Text GLabel 12875 2000 0    50   BiDi ~ 0
+Text GLabel 12225 2600 0    50   BiDi ~ 0
 CSI_D1_N
-Text GLabel 12875 2100 0    50   BiDi ~ 0
+Text GLabel 12225 2700 0    50   BiDi ~ 0
 CSI_D1_P
-Wire Wire Line
-	13250 2600 12875 2600
-Wire Wire Line
-	13250 2700 12875 2700
-Text GLabel 12875 2600 0    50   BiDi ~ 0
+Text GLabel 12225 3200 0    50   BiDi ~ 0
 CSI_CLK_N
-Text GLabel 12875 2700 0    50   BiDi ~ 0
+Text GLabel 12225 3300 0    50   BiDi ~ 0
 CSI_CLK_P
-Wire Wire Line
-	13250 2300 12875 2300
-Wire Wire Line
-	13250 2400 12875 2400
-Wire Wire Line
-	13250 2900 12875 2900
-Wire Wire Line
-	13250 3000 12875 3000
-Text GLabel 12875 3000 0    50   BiDi ~ 0
+Text GLabel 12225 3600 0    50   BiDi ~ 0
 CAM_SCL_3V3
 Wire Wire Line
 	13100 4800 13250 4800
@@ -77,7 +59,7 @@ Wire Wire Line
 Wire Wire Line
 	13250 4600 13100 4600
 Wire Wire Line
-	12850 4500 13100 4500
+	12850 4500 12900 4500
 Connection ~ 13100 4600
 Wire Wire Line
 	13100 4600 13100 4700
@@ -94,48 +76,33 @@ Wire Wire Line
 	13100 4400 13100 4300
 Connection ~ 13100 4200
 Wire Wire Line
-	13100 4200 12850 4200
+	13100 4200 12900 4200
 Wire Wire Line
 	13250 4300 13100 4300
 Connection ~ 13100 4300
 Wire Wire Line
 	13100 4300 13100 4200
 Wire Wire Line
-	13250 3200 12875 3200
-Text GLabel 12875 3200 0    50   Input ~ 0
+	13250 3800 12225 3800
+Text GLabel 12225 3800 0    50   Input ~ 0
 CSI_CAM_EN
-Text GLabel 12875 3400 0    50   Input ~ 0
+Text GLabel 12225 4000 0    50   Input ~ 0
 CSI_CAM_CLK
 Wire Wire Line
-	13250 3300 12975 3300
-Connection ~ 12975 3300
+	13250 3400 12975 3400
 Wire Wire Line
-	12975 3300 12975 3500
-Wire Wire Line
-	13250 3500 12975 3500
-Connection ~ 12975 3500
-Wire Wire Line
-	12875 3400 13250 3400
-Text GLabel 12875 3600 0    50   Input ~ 0
+	12225 4000 13250 4000
+Text GLabel 12225 3900 0    50   Input ~ 0
 CSI_CAM_XVS
-Text GLabel 12875 3800 0    50   Input ~ 0
+Text GLabel 12225 4100 0    50   Input ~ 0
 CSI_CAM_XTRIG
 Wire Wire Line
-	13250 3600 12875 3600
+	13250 3900 12225 3900
 Wire Wire Line
 	13250 3700 12975 3700
-Wire Wire Line
-	12975 3500 12975 3700
 Connection ~ 12975 3700
 Wire Wire Line
-	12975 3700 12975 3900
-Wire Wire Line
-	13250 3900 12975 3900
-Connection ~ 12975 3900
-Wire Wire Line
-	12975 3900 12975 4950
-Wire Wire Line
-	13250 3800 12875 3800
+	13250 4100 12225 4100
 $Comp
 L framos-csi-adapter:GND #PWR0101
 U 1 1 60FF849F
@@ -399,7 +366,7 @@ F 2 "framos-csi-adapter-footprints:0402-res" H 3050 4175 60  0001 L CNN
 F 3 "" H 2850 3975 50  0001 C CNN
 F 4 "PANASONIC" H 3050 4375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3050 4275 60  0001 L CNN "MPN"
-F 6 "0R" H 2850 3975 50  0000 C CNN "Val"
+F 6 "0R" H 3000 3925 50  0000 C CNN "Val"
 	1    2850 3975
 	1    0    0    -1  
 $EndComp
@@ -413,8 +380,7 @@ F 2 "framos-csi-adapter-footprints:0402-res" H 3050 4275 60  0001 L CNN
 F 3 "" H 2850 4075 50  0001 C CNN
 F 4 "PANASONIC" H 3050 4475 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3050 4375 60  0001 L CNN "MPN"
-F 6 "0R" H 2850 4075 50  0000 C CNN "Val"
-F 7 "DNP" H 3025 4025 50  0000 C CNN "DNP"
+F 6 "0R" H 3000 4025 50  0000 C CNN "Val"
 	1    2850 4075
 	1    0    0    -1  
 $EndComp
@@ -424,7 +390,7 @@ Wire Wire Line
 	2650 4075 2650 3975
 Wire Wire Line
 	2650 3975 2700 3975
-Text GLabel 12875 2900 0    50   BiDi ~ 0
+Text GLabel 12225 3500 0    50   BiDi ~ 0
 CAM_SDA_3V3
 Wire Wire Line
 	3675 2375 3550 2375
@@ -444,13 +410,13 @@ $Comp
 L framos-csi-adapter:R_100k_0402 R1
 U 1 1 6182C5BC
 P 2675 2775
-F 0 "R1" H 2675 2875 60  0000 C CNN
+F 0 "R1" H 2625 2875 60  0000 C CNN
 F 1 "R_100k_0402" H 2675 2625 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-res" H 2875 2975 60  0001 L CNN
 F 3 "" H 2675 2775 50  0001 C CNN
 F 4 "VISHAY" H 2875 3175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2875 3075 60  0001 L CNN "MPN"
-F 6 "100k" H 2675 2775 50  0000 C CNN "Val"
+F 6 "100k" H 2875 2725 50  0000 C CNN "Val"
 	1    2675 2775
 	1    0    0    -1  
 $EndComp
@@ -467,13 +433,13 @@ Wire Wire Line
 Wire Wire Line
 	1925 4575 3675 4575
 Wire Wire Line
-	1950 4075 2650 4075
+	1950 4075 2300 4075
 Wire Wire Line
-	1925 3575 3675 3575
+	1925 3575 2475 3575
 Wire Wire Line
 	1925 3375 3675 3375
 Wire Wire Line
-	1925 3275 3675 3275
+	1925 3275 2475 3275
 Wire Wire Line
 	1925 3075 3675 3075
 Wire Wire Line
@@ -490,13 +456,13 @@ $Comp
 L framos-csi-adapter:R_10k_0402 R6
 U 1 1 61A6EF25
 P 2375 3775
-F 0 "R6" H 2550 3825 60  0000 C CNN
+F 0 "R6" H 2175 3825 60  0000 C CNN
 F 1 "R_10k_0402" H 2375 3625 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-res" H 2575 3975 60  0001 L CNN
 F 3 "" H 2375 3775 50  0001 C CNN
 F 4 "VISHAY" H 2575 4175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 2575 4075 60  0001 L CNN "MPN"
-F 6 "10k" H 2375 3775 50  0000 C CNN "Val"
+F 6 "10k" H 2575 3825 50  0000 C CNN "Val"
 	1    2375 3775
 	1    0    0    -1  
 $EndComp
@@ -504,13 +470,13 @@ $Comp
 L framos-csi-adapter:R_12k_0402 R8
 U 1 1 61A7046A
 P 2375 3875
-F 0 "R8" H 2550 3925 60  0000 C CNN
+F 0 "R8" H 2175 3925 60  0000 C CNN
 F 1 "R_12k_0402" H 2375 3725 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-res" H 2575 4075 60  0001 L CNN
 F 3 "" H 2375 3875 50  0001 C CNN
 F 4 "VISHAY" H 2575 4275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 2575 4175 60  0001 L CNN "MPN"
-F 6 "12k" H 2375 3875 50  0000 C CNN "Val"
+F 6 "12k" H 2575 3925 50  0000 C CNN "Val"
 	1    2375 3875
 	1    0    0    -1  
 $EndComp
@@ -533,26 +499,26 @@ Wire Wire Line
 $Comp
 L framos-csi-adapter:GND #PWR01
 U 1 1 61AC8713
-P 2225 3875
-F 0 "#PWR01" H 2225 3625 50  0001 C CNN
-F 1 "GND" H 2225 3750 50  0000 C CNN
-F 2 "" H 2225 3875 50  0001 C CNN
-F 3 "" H 2225 3875 50  0001 C CNN
-	1    2225 3875
+P 2075 3875
+F 0 "#PWR01" H 2075 3625 50  0001 C CNN
+F 1 "GND" H 2075 3750 50  0000 C CNN
+F 2 "" H 2075 3875 50  0001 C CNN
+F 3 "" H 2075 3875 50  0001 C CNN
+	1    2075 3875
 	0    1    -1   0   
 $EndComp
 $Comp
 L framos-csi-adapter:R_100k_0402 R5
 U 1 1 61B3AE44
 P 2375 3675
-F 0 "R5" H 2550 3725 60  0000 C CNN
+F 0 "R5" H 2175 3725 60  0000 C CNN
 F 1 "R_100k_0402" H 2375 3525 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-res" H 2575 3875 60  0001 L CNN
 F 3 "" H 2375 3675 50  0001 C CNN
 F 4 "VISHAY" H 2575 4075 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 2575 3975 60  0001 L CNN "MPN"
-F 6 "100k" H 2375 3675 50  0000 C CNN "Val"
-F 7 "DNP" H 2375 3750 50  0000 C CNN "DNP"
+F 6 "100k" H 2600 3725 50  0000 C CNN "Val"
+F 7 "DNP" H 2375 3675 50  0000 C CNN "DNP"
 	1    2375 3675
 	1    0    0    -1  
 $EndComp
@@ -643,45 +609,40 @@ CAM_SDA_3V3
 $Comp
 L framos-csi-adapter:GND #PWR03
 U 1 1 61D79D36
-P 6700 7400
-F 0 "#PWR03" H 6700 7150 50  0001 C CNN
-F 1 "GND" H 6700 7275 50  0000 C CNN
-F 2 "" H 6700 7400 50  0001 C CNN
-F 3 "" H 6700 7400 50  0001 C CNN
-	1    6700 7400
+P 6775 7875
+F 0 "#PWR03" H 6775 7625 50  0001 C CNN
+F 1 "GND" H 6775 7725 50  0000 C CNN
+F 2 "" H 6775 7875 50  0001 C CNN
+F 3 "" H 6775 7875 50  0001 C CNN
+	1    6775 7875
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 7100 6700 7050
+	6775 7100 6775 7050
 $Comp
 L framos-csi-adapter:C_100n_0402 C1
 U 1 1 61D79D40
-P 6700 7250
-F 0 "C1" H 6815 7295 60  0000 L CNN
-F 1 "C_100n_0402" H 6700 7100 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 6900 7450 60  0001 L CNN
-F 3 "" H 6700 7250 50  0001 C CNN
-F 4 "Walsin" H 6900 7650 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6900 7550 60  0001 L CNN "MPN"
-F 6 "100n" H 6815 7197 50  0000 L CNN "Val"
-	1    6700 7250
+P 6775 7250
+F 0 "C1" H 6890 7295 60  0000 L CNN
+F 1 "C_100n_0402" H 6775 7100 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-cap" H 6975 7450 60  0001 L CNN
+F 3 "" H 6775 7250 50  0001 C CNN
+F 4 "Walsin" H 6975 7650 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6975 7550 60  0001 L CNN "MPN"
+F 6 "100n" H 6890 7197 50  0000 L CNN "Val"
+	1    6775 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6525 7500 6550 7500
 Wire Wire Line
 	6550 7500 6550 7050
-Wire Wire Line
-	6550 7050 6700 7050
-Connection ~ 6700 7050
-Wire Wire Line
-	6700 7050 7200 7050
 $Comp
 L framos-csi-adapter:GND #PWR05
 U 1 1 61D8ED07
 P 6600 7875
 F 0 "#PWR05" H 6600 7625 50  0001 C CNN
-F 1 "GND" H 6605 7702 50  0000 C CNN
+F 1 "GND" H 6600 7725 50  0000 C CNN
 F 2 "" H 6600 7875 50  0001 C CNN
 F 3 "" H 6600 7875 50  0001 C CNN
 	1    6600 7875
@@ -778,12 +739,12 @@ Wire Wire Line
 $Comp
 L framos-csi-adapter:GND #PWR04
 U 1 1 61CCD892
-P 5250 7425
-F 0 "#PWR04" H 5250 7175 50  0001 C CNN
-F 1 "GND" H 5250 7300 50  0000 C CNN
-F 2 "" H 5250 7425 50  0001 C CNN
-F 3 "" H 5250 7425 50  0001 C CNN
-	1    5250 7425
+P 5250 7825
+F 0 "#PWR04" H 5250 7575 50  0001 C CNN
+F 1 "GND" H 5250 7675 50  0000 C CNN
+F 2 "" H 5250 7825 50  0001 C CNN
+F 3 "" H 5250 7825 50  0001 C CNN
+	1    5250 7825
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -840,7 +801,7 @@ Text Notes 5800 2300 0    50   ~ 0
 Text Notes 2425 2500 0    50   ~ 0
 1V8
 $Bitmap
-Pos 9050 2275
+Pos 9075 2525
 Scale 1.500000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 8C 00 00 02 6F 08 02 00 00 00 E7 63 71 
@@ -3863,56 +3824,52 @@ Wire Notes Line
 	1225 1775 1225 5175
 Wire Notes Line
 	2025 1775 1225 1775
-Text Notes 1125 1400 0    118  ~ 24
+Text Notes 3200 1225 0    118  ~ 24
 Framos FSA interface
-Text Notes 12200 1525 0    118  ~ 24
-Host interface
-Text GLabel 4675 10800 0    50   Input ~ 0
+Text Notes 11900 1475 0    118  ~ 24
+Framos CSI interposer connector
+Text GLabel 5275 10800 0    50   Input ~ 0
 3V8_CAM
 $Comp
 L framos-csi-adapter:KP-1608CGCK D1
 U 1 1 61DC194E
-P 5300 10800
-F 0 "D1" V 5197 10978 60  0000 L CNN
-F 1 "KP-1608CGCK" V 5303 10978 60  0000 L CNN
-F 2 "framos-csi-adapter-footprints:LED_0603" H 5500 11000 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 5500 11100 60  0001 L CNN
-F 4 "KP-1608CGCK" H 5500 11300 60  0001 L CNN "MPN"
-F 5 "KINGBRIGHT" H 5510 11420 60  0001 L CNN "Manufacturer"
-	1    5300 10800
+P 5900 10800
+F 0 "D1" H 5950 10975 60  0000 L CNN
+F 1 "KP-1608CGCK" H 5950 10875 60  0000 L CNN
+F 2 "framos-csi-adapter-footprints:LED_0603" H 6100 11000 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 6100 11100 60  0001 L CNN
+F 4 "KP-1608CGCK" H 6100 11300 60  0001 L CNN "MPN"
+F 5 "KINGBRIGHT" H 6110 11420 60  0001 L CNN "Manufacturer"
+	1    5900 10800
 	1    0    0    -1  
 $EndComp
 $Comp
 L framos-csi-adapter:R_330R_0402 R2
 U 1 1 61DC56CF
-P 4825 10800
-F 0 "R2" H 4825 11013 60  0000 C CNN
-F 1 "R_330R_0402" H 4825 10650 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 5025 11000 60  0001 L CNN
-F 3 "" H 4825 10800 50  0001 C CNN
-F 4 "MULTICOMP" H 5025 11200 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X3300FTL" H 5025 11100 60  0001 L CNN "MPN"
-F 6 "330R" H 4825 10915 50  0000 C CNN "Val"
-	1    4825 10800
+P 5425 10800
+F 0 "R2" H 5425 11013 60  0000 C CNN
+F 1 "R_330R_0402" H 5425 10650 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-res" H 5625 11000 60  0001 L CNN
+F 3 "" H 5425 10800 50  0001 C CNN
+F 4 "MULTICOMP" H 5625 11200 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X3300FTL" H 5625 11100 60  0001 L CNN "MPN"
+F 6 "330R" H 5425 10915 50  0000 C CNN "Val"
+	1    5425 10800
 	1    0    0    -1  
 $EndComp
 $Comp
 L framos-csi-adapter:GND #PWR0104
 U 1 1 61DC5AFD
-P 5500 10875
-F 0 "#PWR0104" H 5500 10625 50  0001 C CNN
-F 1 "GND" H 5505 10702 50  0000 C CNN
-F 2 "" H 5500 10875 50  0001 C CNN
-F 3 "" H 5500 10875 50  0001 C CNN
-	1    5500 10875
+P 6100 10875
+F 0 "#PWR0104" H 6100 10625 50  0001 C CNN
+F 1 "GND" H 6105 10702 50  0000 C CNN
+F 2 "" H 6100 10875 50  0001 C CNN
+F 3 "" H 6100 10875 50  0001 C CNN
+	1    6100 10875
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4975 10800 5100 10800
-NoConn ~ 3675 4875
-NoConn ~ 3675 4975
-NoConn ~ 4675 4275
-NoConn ~ 4675 4375
+	5575 10800 5700 10800
 $Comp
 L framos-csi-adapter:oshw_logo N1
 U 1 1 62263070
@@ -4007,16 +3964,16 @@ $EndComp
 $Comp
 L framos-csi-adapter:GND #PWR?
 U 1 1 62166010
-P 1300 10200
-F 0 "#PWR?" H 1300 9950 50  0001 C CNN
-F 1 "GND" H 1305 10027 50  0000 C CNN
-F 2 "" H 1300 10200 50  0001 C CNN
-F 3 "" H 1300 10200 50  0001 C CNN
-	1    1300 10200
+P 1300 10250
+F 0 "#PWR?" H 1300 10000 50  0001 C CNN
+F 1 "GND" H 1305 10077 50  0000 C CNN
+F 2 "" H 1300 10250 50  0001 C CNN
+F 3 "" H 1300 10250 50  0001 C CNN
+	1    1300 10250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 10050 1300 10200
+	1300 10050 1300 10250
 $Comp
 L framos-csi-adapter:TP_SMD1MM TP?
 U 1 1 6217D783
@@ -4190,16 +4147,16 @@ $EndComp
 $Comp
 L framos-csi-adapter:GND #PWR?
 U 1 1 622E82D1
-P 7400 10125
-F 0 "#PWR?" H 7400 9875 50  0001 C CNN
-F 1 "GND" H 7405 9952 50  0000 C CNN
-F 2 "" H 7400 10125 50  0001 C CNN
-F 3 "" H 7400 10125 50  0001 C CNN
-	1    7400 10125
+P 7400 10175
+F 0 "#PWR?" H 7400 9925 50  0001 C CNN
+F 1 "GND" H 7405 10002 50  0000 C CNN
+F 2 "" H 7400 10175 50  0001 C CNN
+F 3 "" H 7400 10175 50  0001 C CNN
+	1    7400 10175
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 9975 7400 10125
+	7400 9975 7400 10175
 $Comp
 L framos-csi-adapter:TP_SMD1MM TP?
 U 1 1 622E82D8
@@ -4299,7 +4256,7 @@ Wire Wire Line
 Connection ~ 10350 9625
 Connection ~ 10575 9625
 Wire Wire Line
-	10575 9625 10750 9625
+	10575 9625 10675 9625
 Wire Wire Line
 	10350 9625 10575 9625
 $Comp
@@ -4444,13 +4401,13 @@ Wire Wire Line
 	4300 9700 4525 9700
 Connection ~ 4525 9700
 Wire Wire Line
-	4525 9700 4650 9700
+	4525 9700 4600 9700
 Text GLabel 10750 9625 2    50   Input ~ 0
 1V8_CAM
 Wire Wire Line
-	5400 10800 5500 10800
+	6000 10800 6100 10800
 Wire Wire Line
-	5500 10800 5500 10875
+	6100 10800 6100 10875
 Text GLabel 7200 7050 2    50   Input ~ 0
 3V3FFC
 $Comp
@@ -4639,4 +4596,259 @@ Text GLabel 9525 4775 1    50   Input ~ 0
 1V8_CAM
 Text GLabel 8675 4800 1    50   Input ~ 0
 3V8_CAM
+Text GLabel 1925 4975 0    50   BiDi ~ 0
+CSI_D2_P
+Text GLabel 1925 4875 0    50   BiDi ~ 0
+CSI_D2_N
+Wire Wire Line
+	1925 4975 3675 4975
+Wire Wire Line
+	1925 4875 3675 4875
+Text GLabel 6750 4275 2    50   BiDi ~ 0
+CSI_D3_N
+Text GLabel 6750 4375 2    50   BiDi ~ 0
+CSI_D3_P
+Wire Wire Line
+	4675 4275 6750 4275
+Wire Wire Line
+	4675 4375 6750 4375
+Text GLabel 12225 2000 0    50   BiDi ~ 0
+CSI_D3_N
+Text GLabel 12225 2100 0    50   BiDi ~ 0
+CSI_D3_P
+Text GLabel 12225 2400 0    50   BiDi ~ 0
+CSI_D2_P
+Text GLabel 12225 2300 0    50   BiDi ~ 0
+CSI_D2_N
+Wire Wire Line
+	12975 3100 12975 3400
+Connection ~ 12975 3400
+Wire Wire Line
+	12975 3400 12975 3700
+Wire Wire Line
+	12975 3700 12975 4950
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 6234F9CE
+P 10675 9525
+F 0 "TP?" V 10675 9400 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 10675 9425 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 10875 9725 60  0001 L CNN
+F 3 "" H 10875 9825 60  0001 L CNN
+	1    10675 9525
+	-1   0    0    1   
+$EndComp
+Connection ~ 10675 9625
+Wire Wire Line
+	10675 9625 10750 9625
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 62352199
+P 4600 9600
+F 0 "TP?" V 4600 9475 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 4600 9500 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 4800 9800 60  0001 L CNN
+F 3 "" H 4800 9900 60  0001 L CNN
+	1    4600 9600
+	-1   0    0    1   
+$EndComp
+Connection ~ 4600 9700
+Wire Wire Line
+	4600 9700 4650 9700
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 62356110
+P 12775 4650
+F 0 "TP?" V 12775 4525 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 12775 4550 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 12975 4850 60  0001 L CNN
+F 3 "" H 12975 4950 60  0001 L CNN
+	1    12775 4650
+	0    1    1    0   
+$EndComp
+Connection ~ 12900 4500
+Wire Wire Line
+	12900 4500 13100 4500
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 62356F7C
+P 12775 4325
+F 0 "TP?" V 12775 4200 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 12775 4225 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 12975 4525 60  0001 L CNN
+F 3 "" H 12975 4625 60  0001 L CNN
+	1    12775 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12875 4325 12900 4325
+Wire Wire Line
+	12900 4325 12900 4200
+Connection ~ 12900 4200
+Wire Wire Line
+	12900 4200 12850 4200
+Wire Wire Line
+	12875 4650 12900 4650
+Wire Wire Line
+	12900 4650 12900 4500
+Wire Wire Line
+	12225 2000 13250 2000
+Wire Wire Line
+	12225 2100 13250 2100
+Wire Wire Line
+	12225 2300 13250 2300
+Wire Wire Line
+	12225 2400 13250 2400
+Wire Wire Line
+	12225 2600 13250 2600
+Wire Wire Line
+	12225 2700 13250 2700
+Wire Wire Line
+	12225 2900 13250 2900
+Wire Wire Line
+	12225 3000 13250 3000
+Wire Wire Line
+	12225 3200 13250 3200
+Wire Wire Line
+	12225 3300 13250 3300
+Wire Wire Line
+	12225 3500 13250 3500
+Wire Wire Line
+	12225 3600 13250 3600
+Wire Wire Line
+	5250 7425 5250 7825
+Connection ~ 6775 7050
+Wire Wire Line
+	6775 7050 7200 7050
+Wire Wire Line
+	6550 7050 6775 7050
+Wire Wire Line
+	6775 7875 6775 7400
+Text Notes 5200 10450 0    79   ~ 16
+Camera LED
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 625EE47D
+P 2275 3500
+F 0 "TP?" V 2275 3375 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 2275 3400 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2475 3700 60  0001 L CNN
+F 3 "" H 2475 3800 60  0001 L CNN
+	1    2275 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2375 3500 2475 3500
+Wire Wire Line
+	2475 3500 2475 3575
+Connection ~ 2475 3575
+Wire Wire Line
+	2475 3575 3675 3575
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 62611833
+P 2275 3175
+F 0 "TP?" V 2275 3050 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 2275 3075 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2475 3375 60  0001 L CNN
+F 3 "" H 2475 3475 60  0001 L CNN
+	1    2275 3175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2375 3175 2475 3175
+Wire Wire Line
+	2475 3175 2475 3275
+Connection ~ 2475 3275
+Wire Wire Line
+	2475 3275 3675 3275
+Text Notes 5025 6625 0    50   ~ 0
+JNB can have I2C configured as 1V8
+$Comp
+L framos-csi-adapter:R_0R_0402 R?
+U 1 1 6263D275
+P 5900 8450
+F 0 "R?" H 5675 8500 60  0000 C CNN
+F 1 "R_0R_0402" H 5900 8300 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-res" H 6100 8650 60  0001 L CNN
+F 3 "" H 5900 8450 50  0001 C CNN
+F 4 "PANASONIC" H 6100 8850 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6100 8750 60  0001 L CNN "MPN"
+F 6 "0R" H 6075 8400 50  0000 C CNN "Val"
+F 7 "DNP" H 5900 8450 50  0000 C CNN "DNP"
+	1    5900 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L framos-csi-adapter:R_0R_0402 R?
+U 1 1 6263E1FF
+P 5900 8325
+F 0 "R?" H 5675 8375 60  0000 C CNN
+F 1 "R_0R_0402" H 5900 8175 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-res" H 6100 8525 60  0001 L CNN
+F 3 "" H 5900 8325 50  0001 C CNN
+F 4 "PANASONIC" H 6100 8725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 6100 8625 60  0001 L CNN "MPN"
+F 6 "0R" H 6075 8275 50  0000 C CNN "Val"
+F 7 "DNP" H 5900 8325 50  0000 C CNN "DNP"
+	1    5900 8325
+	1    0    0    -1  
+$EndComp
+Text GLabel 6225 8325 2    50   BiDi ~ 0
+CAM_SCL_3V3
+Text GLabel 6225 8450 2    50   BiDi ~ 0
+CAM_SDA_3V3
+Text GLabel 5525 8325 0    50   BiDi ~ 0
+CAM_SCL_1V8
+Text GLabel 5525 8450 0    50   BiDi ~ 0
+CAM_SDA_1V8
+Wire Wire Line
+	5525 8450 5750 8450
+Wire Wire Line
+	5525 8325 5750 8325
+Wire Wire Line
+	6050 8325 6225 8325
+Wire Wire Line
+	6050 8450 6225 8450
+Text Notes 5025 6625 0    50   ~ 0
+JNB can have I2C configured as 1V8
+Text Notes 5300 8200 0    50   ~ 0
+I2C logic level translator bypass
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP?
+U 1 1 6270454A
+P 2100 3975
+F 0 "TP?" V 2100 3850 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 2100 3875 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2300 4175 60  0001 L CNN
+F 3 "" H 2300 4275 60  0001 L CNN
+	1    2100 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 3975 2300 3975
+Wire Wire Line
+	2300 3975 2300 4075
+Wire Wire Line
+	2075 3875 2225 3875
+$Comp
+L framos-csi-adapter:R_0R_0402 R?
+U 1 1 6277455E
+P 2475 4075
+F 0 "R?" H 2425 4175 60  0000 C CNN
+F 1 "R_0R_0402" H 2475 3925 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-res" H 2675 4275 60  0001 L CNN
+F 3 "" H 2475 4075 50  0001 C CNN
+F 4 "PANASONIC" H 2675 4475 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2675 4375 60  0001 L CNN "MPN"
+F 6 "0R" H 2575 4000 50  0000 C CNN "Val"
+F 7 "DNP" H 2475 4075 50  0000 C CNN "DNP"
+	1    2475 4075
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 4075
+Wire Wire Line
+	2300 4075 2325 4075
+Wire Wire Line
+	2625 4075 2650 4075
 $EndSCHEMATC
