@@ -3907,12 +3907,12 @@ Wire Notes Line
 Wire Notes Line
 	500  8600 16050 8600
 $Comp
-L framos-csi-adapter:AP62301Z6-7 U?
+L antmicroDCDCConverters:AP62301Z6-7 U2
 U 1 1 620E28E7
 P 2450 9900
-F 0 "U?" H 2450 10365 50  0000 C CNN
+F 0 "U2" H 2450 10365 50  0000 C CNN
 F 1 "AP62301Z6-7" H 2450 10274 50  0000 C CNN
-F 2 "framos-csi-adapter-footprints:SOT-563" H 2400 9250 50  0001 C CNN
+F 2 "antmicro-footprints:SOT-563" H 2400 9250 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 2400 9550 50  0001 C CNN
 F 4 "AP62301Z6-7" H 2400 9350 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 2400 9450 50  0001 C CNN "Manufacturer"
@@ -3928,12 +3928,12 @@ Text GLabel 1175 9700 0    50   Input ~ 0
 Wire Wire Line
 	2050 9700 1300 9700
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C3
 U 1 1 6214EBEA
 P 1300 9900
-F 0 "C?" H 1415 9945 60  0000 L CNN
+F 0 "C3" H 1415 9945 60  0000 L CNN
 F 1 "C_22u_0603" H 1300 9750 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 1500 10100 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 1500 10100 60  0001 L CNN
 F 3 "" H 1300 9900 50  0001 C CNN
 F 4 "MURATA" H 1500 10300 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 1500 10200 60  0001 L CNN "MPN"
@@ -3951,10 +3951,10 @@ Wire Wire Line
 Wire Wire Line
 	1925 10100 1925 10250
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0105
 U 1 1 621657DF
 P 1925 10250
-F 0 "#PWR?" H 1925 10000 50  0001 C CNN
+F 0 "#PWR0105" H 1925 10000 50  0001 C CNN
 F 1 "GND" H 1930 10077 50  0000 C CNN
 F 2 "" H 1925 10250 50  0001 C CNN
 F 3 "" H 1925 10250 50  0001 C CNN
@@ -3962,10 +3962,10 @@ F 3 "" H 1925 10250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0106
 U 1 1 62166010
 P 1300 10250
-F 0 "#PWR?" H 1300 10000 50  0001 C CNN
+F 0 "#PWR0106" H 1300 10000 50  0001 C CNN
 F 1 "GND" H 1305 10077 50  0000 C CNN
 F 2 "" H 1300 10250 50  0001 C CNN
 F 3 "" H 1300 10250 50  0001 C CNN
@@ -3975,44 +3975,12 @@ $EndComp
 Wire Wire Line
 	1300 10050 1300 10250
 $Comp
-L framos-csi-adapter:TP_SMD1MM TP?
-U 1 1 6217D783
-P 1875 9800
-F 0 "TP?" H 1825 9847 50  0000 R CNN
-F 1 "TP_SMD1MM" H 1875 9700 50  0001 C CNN
-F 2 "framos-csi-adapter-footprints:Testpoint_smd_1mm" H 2075 10000 60  0001 L CNN
-F 3 "" H 2075 10100 60  0001 L CNN
-	1    1875 9800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2050 9900 1875 9900
-Connection ~ 1875 9900
-Wire Wire Line
-	1775 9900 1875 9900
-$Comp
-L framos-csi-adapter:XEL4030-332MEC L?
-U 1 1 62196C2E
-P 3600 9700
-F 0 "L?" H 3600 10001 50  0000 C CNN
-F 1 "XEL4030-332MEC" H 3600 9910 50  0000 C CNN
-F 2 "framos-csi-adapter-footprints:Coilcraft-XEL4030" H 4400 9950 60  0001 C CNN
-F 3 "https://www.coilcraft.com/getmedia/8245f050-f190-4295-8c41-7c03d662ee3d/xel4030.pdf" H 3655 9730 60  0001 C CNN
-F 4 "XEL4030-332MEC" H 3800 10200 50  0001 C CNN "MPN"
-F 5 "Coilcraft" H 3900 10300 50  0001 C CNN "Manufacturer"
-F 6 "3u3/5.9A" H 3600 9819 50  0000 C CNN "Val"
-F 7 "5.9A" H 3675 10125 50  0001 C CNN "MaxCur"
-F 8 "4x4" H 3725 10025 50  0001 C CNN "Size"
-	1    3600 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L framos-csi-adapter:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C4
 U 1 1 621985BE
 P 3125 9900
-F 0 "C?" V 3050 9750 60  0000 C CNN
+F 0 "C4" V 3050 9750 60  0000 C CNN
 F 1 "C_100n_0402" H 3125 9750 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 3325 10100 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 3325 10100 60  0001 L CNN
 F 3 "" H 3125 9900 50  0001 C CNN
 F 4 "Murata" H 3325 10300 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 3325 10200 60  0001 L CNN "MPN"
@@ -4028,18 +3996,16 @@ Wire Wire Line
 	3375 9900 3375 9700
 Wire Wire Line
 	3375 9700 2850 9700
-Wire Wire Line
-	3375 9700 3450 9700
 Connection ~ 3375 9700
 Text GLabel 4650 9700 2    50   Input ~ 0
 3V8_CAM
 $Comp
-L framos-csi-adapter:R_14k7_0402 R?
+L antmicroResistors0402:R_14k7_0402 R14
 U 1 1 621E39D5
 P 3875 9900
-F 0 "R?" V 3830 9970 60  0000 L CNN
+F 0 "R14" V 3830 9970 60  0000 L CNN
 F 1 "R_14k7_0402" H 3875 9750 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 4075 10100 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 4075 10100 60  0001 L CNN
 F 3 "" H 3875 9900 50  0001 C CNN
 F 4 "VISHAY" H 4075 10300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW080514K7FKEA" H 4075 10200 60  0001 L CNN "MPN"
@@ -4047,8 +4013,6 @@ F 6 "14k7" V 3928 9970 50  0000 L CNN "Val"
 	1    3875 9900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3750 9700 3875 9700
 Wire Wire Line
 	3875 9700 3875 9750
 Connection ~ 3875 9700
@@ -4060,12 +4024,12 @@ Wire Wire Line
 	3875 10100 3875 10175
 Connection ~ 3875 10100
 $Comp
-L framos-csi-adapter:R_3k92_0402 R?
+L antmicroResistors0402:R_3k92_0402 R15
 U 1 1 622438A6
 P 3875 10325
-F 0 "R?" V 3830 10395 60  0000 L CNN
+F 0 "R15" V 3830 10395 60  0000 L CNN
 F 1 "R_3k92_0402" H 3875 10175 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 4075 10525 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 4075 10525 60  0001 L CNN
 F 3 "" H 3875 10325 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4075 10725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF3921X" H 4075 10625 60  0001 L CNN "MPN"
@@ -4074,10 +4038,10 @@ F 6 "3k92" V 3928 10395 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0107
 U 1 1 622448BB
 P 3875 10550
-F 0 "#PWR?" H 3875 10300 50  0001 C CNN
+F 0 "#PWR0107" H 3875 10300 50  0001 C CNN
 F 1 "GND" H 3880 10377 50  0000 C CNN
 F 2 "" H 3875 10550 50  0001 C CNN
 F 3 "" H 3875 10550 50  0001 C CNN
@@ -4094,12 +4058,12 @@ Text Notes 1750 9000 0    118  ~ 24
 Text Notes 7775 9000 0    118  ~ 24
 1V8 MIPI Camera Power
 $Comp
-L framos-csi-adapter:AP62301Z6-7 U?
+L antmicroDCDCConverters:AP62301Z6-7 U3
 U 1 1 622E82B5
 P 8550 9825
-F 0 "U?" H 8550 10290 50  0000 C CNN
+F 0 "U3" H 8550 10290 50  0000 C CNN
 F 1 "AP62301Z6-7" H 8550 10199 50  0000 C CNN
-F 2 "framos-csi-adapter-footprints:SOT-563" H 8500 9175 50  0001 C CNN
+F 2 "antmicro-footprints:SOT-563" H 8500 9175 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 8500 9475 50  0001 C CNN
 F 4 "AP62301Z6-7" H 8500 9275 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 8500 9375 50  0001 C CNN "Manufacturer"
@@ -4111,12 +4075,12 @@ Text GLabel 7275 9625 0    50   Input ~ 0
 Wire Wire Line
 	8150 9625 7400 9625
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C7
 U 1 1 622E82C0
 P 7400 9825
-F 0 "C?" H 7515 9870 60  0000 L CNN
+F 0 "C7" H 7515 9870 60  0000 L CNN
 F 1 "C_22u_0603" H 7400 9675 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 7600 10025 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 7600 10025 60  0001 L CNN
 F 3 "" H 7400 9825 50  0001 C CNN
 F 4 "MURATA" H 7600 10225 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 7600 10125 60  0001 L CNN "MPN"
@@ -4134,10 +4098,10 @@ Wire Wire Line
 Wire Wire Line
 	8025 10025 8025 10175
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0108
 U 1 1 622E82CB
 P 8025 10175
-F 0 "#PWR?" H 8025 9925 50  0001 C CNN
+F 0 "#PWR0108" H 8025 9925 50  0001 C CNN
 F 1 "GND" H 8030 10002 50  0000 C CNN
 F 2 "" H 8025 10175 50  0001 C CNN
 F 3 "" H 8025 10175 50  0001 C CNN
@@ -4145,10 +4109,10 @@ F 3 "" H 8025 10175 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0109
 U 1 1 622E82D1
 P 7400 10175
-F 0 "#PWR?" H 7400 9925 50  0001 C CNN
+F 0 "#PWR0109" H 7400 9925 50  0001 C CNN
 F 1 "GND" H 7405 10002 50  0000 C CNN
 F 2 "" H 7400 10175 50  0001 C CNN
 F 3 "" H 7400 10175 50  0001 C CNN
@@ -4158,12 +4122,12 @@ $EndComp
 Wire Wire Line
 	7400 9975 7400 10175
 $Comp
-L framos-csi-adapter:TP_SMD1MM TP?
+L antmicroTestPoints:TP_SMD1MM TP18
 U 1 1 622E82D8
 P 7975 9725
-F 0 "TP?" H 7925 9772 50  0000 R CNN
+F 0 "TP18" H 7925 9772 50  0000 R CNN
 F 1 "TP_SMD1MM" H 7975 9625 50  0001 C CNN
-F 2 "framos-csi-adapter-footprints:Testpoint_smd_1mm" H 8175 9925 60  0001 L CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 8175 9925 60  0001 L CNN
 F 3 "" H 8175 10025 60  0001 L CNN
 	1    7975 9725
 	-1   0    0    1   
@@ -4174,12 +4138,12 @@ Connection ~ 7975 9825
 Wire Wire Line
 	7875 9825 7975 9825
 $Comp
-L framos-csi-adapter:C_100n_0402 C?
+L antmicroCapacitors0402:C_100n_0402 C10
 U 1 1 622E82EF
 P 9225 9825
-F 0 "C?" V 9150 9675 60  0000 C CNN
+F 0 "C10" V 9150 9675 60  0000 C CNN
 F 1 "C_100n_0402" H 9225 9675 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 9425 10025 60  0001 L CNN
+F 2 "antmicro-footprints:0402-cap" H 9425 10025 60  0001 L CNN
 F 3 "" H 9225 9825 50  0001 C CNN
 F 4 "Murata" H 9425 10225 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61H104KE14D" H 9425 10125 60  0001 L CNN "MPN"
@@ -4199,12 +4163,12 @@ Wire Wire Line
 	9475 9625 9550 9625
 Connection ~ 9475 9625
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C13
 U 1 1 622E82FE
 P 10350 9875
-F 0 "C?" H 10375 9975 60  0000 L CNN
+F 0 "C13" H 10375 9975 60  0000 L CNN
 F 1 "C_22u_0603" H 10350 9725 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 10550 10075 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 10550 10075 60  0001 L CNN
 F 3 "" H 10350 9875 50  0001 C CNN
 F 4 "MURATA" H 10550 10275 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 10550 10175 60  0001 L CNN "MPN"
@@ -4213,12 +4177,12 @@ F 6 "22u" H 10350 9775 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C14
 U 1 1 622E8307
 P 10575 9875
-F 0 "C?" H 10600 9975 60  0000 L CNN
+F 0 "C14" H 10600 9975 60  0000 L CNN
 F 1 "C_22u_0603" H 10575 9725 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 10775 10075 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 10775 10075 60  0001 L CNN
 F 3 "" H 10575 9875 50  0001 C CNN
 F 4 "MURATA" H 10775 10275 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 10775 10175 60  0001 L CNN "MPN"
@@ -4241,10 +4205,10 @@ Wire Wire Line
 	9975 10025 9975 10100
 Connection ~ 9975 10025
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0110
 U 1 1 622E8328
 P 9975 10475
-F 0 "#PWR?" H 9975 10225 50  0001 C CNN
+F 0 "#PWR0110" H 9975 10225 50  0001 C CNN
 F 1 "GND" H 9980 10302 50  0000 C CNN
 F 2 "" H 9975 10475 50  0001 C CNN
 F 3 "" H 9975 10475 50  0001 C CNN
@@ -4260,10 +4224,10 @@ Wire Wire Line
 Wire Wire Line
 	10350 9625 10575 9625
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0111
 U 1 1 622E8333
 P 10575 10075
-F 0 "#PWR?" H 10575 9825 50  0001 C CNN
+F 0 "#PWR0111" H 10575 9825 50  0001 C CNN
 F 1 "GND" H 10580 9902 50  0000 C CNN
 F 2 "" H 10575 10075 50  0001 C CNN
 F 3 "" H 10575 10075 50  0001 C CNN
@@ -4271,10 +4235,10 @@ F 3 "" H 10575 10075 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0112
 U 1 1 622E8339
 P 10350 10075
-F 0 "#PWR?" H 10350 9825 50  0001 C CNN
+F 0 "#PWR0112" H 10350 9825 50  0001 C CNN
 F 1 "GND" H 10355 9902 50  0000 C CNN
 F 2 "" H 10350 10075 50  0001 C CNN
 F 3 "" H 10350 10075 50  0001 C CNN
@@ -4285,12 +4249,12 @@ Text Notes 8250 10300 0    50   ~ 0
 EN - Active H\nEN float = auto startup
 NoConn ~ 7875 9825
 $Comp
-L framos-csi-adapter:XEL4030-222MEC L?
+L antmicroFixedInductors:XEL4030-222MEC L2
 U 1 1 622FC5F9
 P 9700 9625
-F 0 "L?" H 9700 9926 50  0000 C CNN
+F 0 "L2" H 9700 9926 50  0000 C CNN
 F 1 "XEL4030-222MEC" H 9700 9835 50  0000 C CNN
-F 2 "framos-csi-adapter-footprints:Coilcraft-XEL4030" H 10500 9875 60  0001 C CNN
+F 2 "antmicro-footprints:Coilcraft-XEL4030" H 10500 9875 60  0001 C CNN
 F 3 "https://www.coilcraft.com/getmedia/8245f050-f190-4295-8c41-7c03d662ee3d/xel4030.pdf" H 9755 9655 60  0001 C CNN
 F 4 "XEL4030-222MEC" H 9900 10125 50  0001 C CNN "MPN"
 F 5 "Coilcraft" H 10000 10225 50  0001 C CNN "Manufacturer"
@@ -4301,12 +4265,12 @@ F 8 "4x4" H 9825 9950 50  0001 C CNN "Size"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:R_12k4_0402 R?
+L antmicroResistors0402:R_12k4_0402 R18
 U 1 1 623010E0
 P 9975 9825
-F 0 "R?" V 9930 9895 60  0000 L CNN
+F 0 "R18" V 9930 9895 60  0000 L CNN
 F 1 "R_12k4_0402" H 9975 9675 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 10175 10025 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 10175 10025 60  0001 L CNN
 F 3 "" H 9975 9825 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10175 10225 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1242X" H 10175 10125 60  0001 L CNN "MPN"
@@ -4315,12 +4279,12 @@ F 6 "12k4" V 10028 9895 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L framos-csi-adapter:R_10k_0402 R?
+L antmicroResistors0402:R_10k_0402 R19
 U 1 1 62301D39
 P 9975 10250
-F 0 "R?" V 9930 10320 60  0000 L CNN
+F 0 "R19" V 9930 10320 60  0000 L CNN
 F 1 "R_10k_0402" H 9975 10100 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 10175 10450 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 10175 10450 60  0001 L CNN
 F 3 "" H 9975 10250 50  0001 C CNN
 F 4 "VISHAY" H 10175 10650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10175 10550 60  0001 L CNN "MPN"
@@ -4337,12 +4301,12 @@ Wire Wire Line
 Wire Wire Line
 	10575 10025 10575 10075
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C5
 U 1 1 6232C86F
 P 4300 9950
-F 0 "C?" H 4325 10050 60  0000 L CNN
+F 0 "C5" H 4325 10050 60  0000 L CNN
 F 1 "C_22u_0603" H 4300 9800 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 4500 10150 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 4500 10150 60  0001 L CNN
 F 3 "" H 4300 9950 50  0001 C CNN
 F 4 "MURATA" H 4500 10350 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 4500 10250 60  0001 L CNN "MPN"
@@ -4351,12 +4315,12 @@ F 6 "22u" H 4300 9850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:C_22u_0603 C?
+L antmicroCapacitors0603:C_22u_0603 C6
 U 1 1 6232C878
 P 4525 9950
-F 0 "C?" H 4550 10050 60  0000 L CNN
+F 0 "C6" H 4550 10050 60  0000 L CNN
 F 1 "C_22u_0603" H 4525 9800 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0603-cap" H 4725 10150 60  0001 L CNN
+F 2 "antmicro-footprints:0603-cap" H 4725 10150 60  0001 L CNN
 F 3 "" H 4525 9950 50  0001 C CNN
 F 4 "MURATA" H 4725 10350 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J226MEA0D" H 4725 10250 60  0001 L CNN "MPN"
@@ -4365,10 +4329,10 @@ F 6 "22u" H 4525 9850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0113
 U 1 1 6232C87E
 P 4525 10150
-F 0 "#PWR?" H 4525 9900 50  0001 C CNN
+F 0 "#PWR0113" H 4525 9900 50  0001 C CNN
 F 1 "GND" H 4530 9977 50  0000 C CNN
 F 2 "" H 4525 10150 50  0001 C CNN
 F 3 "" H 4525 10150 50  0001 C CNN
@@ -4376,10 +4340,10 @@ F 3 "" H 4525 10150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0114
 U 1 1 6232C884
 P 4300 10150
-F 0 "#PWR?" H 4300 9900 50  0001 C CNN
+F 0 "#PWR0114" H 4300 9900 50  0001 C CNN
 F 1 "GND" H 4305 9977 50  0000 C CNN
 F 2 "" H 4300 10150 50  0001 C CNN
 F 3 "" H 4300 10150 50  0001 C CNN
@@ -4411,10 +4375,10 @@ Wire Wire Line
 Text GLabel 7200 7050 2    50   Input ~ 0
 3V3FFC
 $Comp
-L framos-csi-adapter:C_100n_0402 C?
+L framos-csi-adapter:C_100n_0402 C15
 U 1 1 624DB66C
 P 11200 5075
-F 0 "C?" H 11315 5120 60  0000 L CNN
+F 0 "C15" H 11315 5120 60  0000 L CNN
 F 1 "C_100n_0402" H 11200 4925 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-cap" H 11400 5275 60  0001 L CNN
 F 3 "" H 11200 5075 50  0001 C CNN
@@ -4425,10 +4389,10 @@ F 6 "100n" H 11315 5022 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:C_100n_0402 C?
+L framos-csi-adapter:C_100n_0402 C16
 U 1 1 624DD905
 P 11600 5075
-F 0 "C?" H 11715 5120 60  0000 L CNN
+F 0 "C16" H 11715 5120 60  0000 L CNN
 F 1 "C_100n_0402" H 11600 4925 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-cap" H 11800 5275 60  0001 L CNN
 F 3 "" H 11600 5075 50  0001 C CNN
@@ -4447,10 +4411,10 @@ Wire Wire Line
 Text GLabel 11600 4775 1    50   Input ~ 0
 3V3FFC
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0115
 U 1 1 6250C5BF
 P 11200 5300
-F 0 "#PWR?" H 11200 5050 50  0001 C CNN
+F 0 "#PWR0115" H 11200 5050 50  0001 C CNN
 F 1 "GND" H 11205 5127 50  0000 C CNN
 F 2 "" H 11200 5300 50  0001 C CNN
 F 3 "" H 11200 5300 50  0001 C CNN
@@ -4460,10 +4424,10 @@ $EndComp
 Wire Wire Line
 	11200 5225 11200 5300
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0116
 U 1 1 6251A413
 P 11600 5300
-F 0 "#PWR?" H 11600 5050 50  0001 C CNN
+F 0 "#PWR0116" H 11600 5050 50  0001 C CNN
 F 1 "GND" H 11605 5127 50  0000 C CNN
 F 2 "" H 11600 5300 50  0001 C CNN
 F 3 "" H 11600 5300 50  0001 C CNN
@@ -4473,72 +4437,10 @@ $EndComp
 Wire Wire Line
 	11600 5225 11600 5300
 $Comp
-L framos-csi-adapter:C_100n_0402 C?
-U 1 1 62533029
-P 8950 5075
-F 0 "C?" H 8950 5175 60  0000 L CNN
-F 1 "C_100n_0402" H 8950 4925 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 9150 5275 60  0001 L CNN
-F 3 "" H 8950 5075 50  0001 C CNN
-F 4 "Walsin" H 9150 5475 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9150 5375 60  0001 L CNN "MPN"
-F 6 "100n" H 8975 4975 50  0000 L CNN "Val"
-	1    8950 5075
-	1    0    0    -1  
-$EndComp
-$Comp
-L framos-csi-adapter:C_100n_0402 C?
-U 1 1 62533032
-P 9250 5075
-F 0 "C?" H 9250 5175 60  0000 L CNN
-F 1 "C_100n_0402" H 9250 4925 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 9450 5275 60  0001 L CNN
-F 3 "" H 9250 5075 50  0001 C CNN
-F 4 "Walsin" H 9450 5475 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9450 5375 60  0001 L CNN "MPN"
-F 6 "100n" H 9250 4975 50  0000 L CNN "Val"
-	1    9250 5075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 4925 8950 4800
-Wire Wire Line
-	9250 4925 9250 4775
-$Comp
-L framos-csi-adapter:GND #PWR?
-U 1 1 6253303C
-P 8950 5300
-F 0 "#PWR?" H 8950 5050 50  0001 C CNN
-F 1 "GND" H 8955 5127 50  0000 C CNN
-F 2 "" H 8950 5300 50  0001 C CNN
-F 3 "" H 8950 5300 50  0001 C CNN
-	1    8950 5300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 5225 8950 5300
-$Comp
-L framos-csi-adapter:GND #PWR?
-U 1 1 62533043
-P 9250 5300
-F 0 "#PWR?" H 9250 5050 50  0001 C CNN
-F 1 "GND" H 9255 5127 50  0000 C CNN
-F 2 "" H 9250 5300 50  0001 C CNN
-F 3 "" H 9250 5300 50  0001 C CNN
-	1    9250 5300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 5225 9250 5300
-Text GLabel 9250 4775 1    50   Input ~ 0
-1V8_CAM
-Text GLabel 8950 4800 1    50   Input ~ 0
-3V8_CAM
-$Comp
-L framos-csi-adapter:C_100n_0402 C?
+L framos-csi-adapter:C_100n_0402 C8
 U 1 1 6257CA98
 P 8675 5075
-F 0 "C?" H 8675 5175 60  0000 L CNN
+F 0 "C8" H 8675 5175 60  0000 L CNN
 F 1 "C_100n_0402" H 8675 4925 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-cap" H 8875 5275 60  0001 L CNN
 F 3 "" H 8675 5075 50  0001 C CNN
@@ -4549,28 +4451,28 @@ F 6 "100n" H 8700 4975 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:C_100n_0402 C?
+L framos-csi-adapter:C_100n_0402 C12
 U 1 1 6257CAA1
-P 9525 5075
-F 0 "C?" H 9525 5175 60  0000 L CNN
-F 1 "C_100n_0402" H 9525 4925 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-cap" H 9725 5275 60  0001 L CNN
-F 3 "" H 9525 5075 50  0001 C CNN
-F 4 "Walsin" H 9725 5475 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9725 5375 60  0001 L CNN "MPN"
-F 6 "100n" H 9525 4975 50  0000 L CNN "Val"
-	1    9525 5075
+P 9000 5075
+F 0 "C12" H 9000 5175 60  0000 L CNN
+F 1 "C_100n_0402" H 9000 4925 60  0001 C CNN
+F 2 "framos-csi-adapter-footprints:0402-cap" H 9200 5275 60  0001 L CNN
+F 3 "" H 9000 5075 50  0001 C CNN
+F 4 "Walsin" H 9200 5475 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9200 5375 60  0001 L CNN "MPN"
+F 6 "100n" H 9000 4975 50  0000 L CNN "Val"
+	1    9000 5075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8675 4925 8675 4800
 Wire Wire Line
-	9525 4925 9525 4775
+	9000 4925 9000 4775
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0119
 U 1 1 6257CAA9
 P 8675 5300
-F 0 "#PWR?" H 8675 5050 50  0001 C CNN
+F 0 "#PWR0119" H 8675 5050 50  0001 C CNN
 F 1 "GND" H 8680 5127 50  0000 C CNN
 F 2 "" H 8675 5300 50  0001 C CNN
 F 3 "" H 8675 5300 50  0001 C CNN
@@ -4580,19 +4482,19 @@ $EndComp
 Wire Wire Line
 	8675 5225 8675 5300
 $Comp
-L framos-csi-adapter:GND #PWR?
+L framos-csi-adapter:GND #PWR0120
 U 1 1 6257CAB0
-P 9525 5300
-F 0 "#PWR?" H 9525 5050 50  0001 C CNN
-F 1 "GND" H 9530 5127 50  0000 C CNN
-F 2 "" H 9525 5300 50  0001 C CNN
-F 3 "" H 9525 5300 50  0001 C CNN
-	1    9525 5300
+P 9000 5300
+F 0 "#PWR0120" H 9000 5050 50  0001 C CNN
+F 1 "GND" H 9005 5127 50  0000 C CNN
+F 2 "" H 9000 5300 50  0001 C CNN
+F 3 "" H 9000 5300 50  0001 C CNN
+	1    9000 5300
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9525 5225 9525 5300
-Text GLabel 9525 4775 1    50   Input ~ 0
+	9000 5225 9000 5300
+Text GLabel 9000 4775 1    50   Input ~ 0
 1V8_CAM
 Text GLabel 8675 4800 1    50   Input ~ 0
 3V8_CAM
@@ -4628,10 +4530,10 @@ Wire Wire Line
 Wire Wire Line
 	12975 3700 12975 4950
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP19
 U 1 1 6234F9CE
 P 10675 9525
-F 0 "TP?" V 10675 9400 50  0000 C CNN
+F 0 "TP19" V 10675 9400 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 10675 9425 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 10875 9725 60  0001 L CNN
 F 3 "" H 10875 9825 60  0001 L CNN
@@ -4642,10 +4544,10 @@ Connection ~ 10675 9625
 Wire Wire Line
 	10675 9625 10750 9625
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP17
 U 1 1 62352199
 P 4600 9600
-F 0 "TP?" V 4600 9475 50  0000 C CNN
+F 0 "TP17" H 4600 9525 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 4600 9500 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 4800 9800 60  0001 L CNN
 F 3 "" H 4800 9900 60  0001 L CNN
@@ -4656,10 +4558,10 @@ Connection ~ 4600 9700
 Wire Wire Line
 	4600 9700 4650 9700
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP21
 U 1 1 62356110
 P 12775 4650
-F 0 "TP?" V 12775 4525 50  0000 C CNN
+F 0 "TP21" V 12775 4525 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 12775 4550 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 12975 4850 60  0001 L CNN
 F 3 "" H 12975 4950 60  0001 L CNN
@@ -4670,10 +4572,10 @@ Connection ~ 12900 4500
 Wire Wire Line
 	12900 4500 13100 4500
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP20
 U 1 1 62356F7C
 P 12775 4325
-F 0 "TP?" V 12775 4200 50  0000 C CNN
+F 0 "TP20" V 12775 4200 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 12775 4225 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 12975 4525 60  0001 L CNN
 F 3 "" H 12975 4625 60  0001 L CNN
@@ -4727,10 +4629,10 @@ Wire Wire Line
 Text Notes 5200 10450 0    79   ~ 16
 Camera LED
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP16
 U 1 1 625EE47D
 P 2275 3500
-F 0 "TP?" V 2275 3375 50  0000 C CNN
+F 0 "TP16" V 2275 3375 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 2275 3400 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2475 3700 60  0001 L CNN
 F 3 "" H 2475 3800 60  0001 L CNN
@@ -4745,10 +4647,10 @@ Connection ~ 2475 3575
 Wire Wire Line
 	2475 3575 3675 3575
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP15
 U 1 1 62611833
 P 2275 3175
-F 0 "TP?" V 2275 3050 50  0000 C CNN
+F 0 "TP15" V 2275 3050 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 2275 3075 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2475 3375 60  0001 L CNN
 F 3 "" H 2475 3475 60  0001 L CNN
@@ -4765,12 +4667,12 @@ Wire Wire Line
 Text Notes 5025 6625 0    50   ~ 0
 JNB can have I2C configured as 1V8
 $Comp
-L framos-csi-adapter:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R17
 U 1 1 6263D275
 P 5900 8450
-F 0 "R?" H 5675 8500 60  0000 C CNN
+F 0 "R17" H 5675 8500 60  0000 C CNN
 F 1 "R_0R_0402" H 5900 8300 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 6100 8650 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 6100 8650 60  0001 L CNN
 F 3 "" H 5900 8450 50  0001 C CNN
 F 4 "PANASONIC" H 6100 8850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6100 8750 60  0001 L CNN "MPN"
@@ -4780,12 +4682,12 @@ F 7 "DNP" H 5900 8450 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L framos-csi-adapter:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R16
 U 1 1 6263E1FF
 P 5900 8325
-F 0 "R?" H 5675 8375 60  0000 C CNN
+F 0 "R16" H 5675 8375 60  0000 C CNN
 F 1 "R_0R_0402" H 5900 8175 60  0001 C CNN
-F 2 "framos-csi-adapter-footprints:0402-res" H 6100 8525 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 6100 8525 60  0001 L CNN
 F 3 "" H 5900 8325 50  0001 C CNN
 F 4 "PANASONIC" H 6100 8725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6100 8625 60  0001 L CNN "MPN"
@@ -4815,10 +4717,10 @@ JNB can have I2C configured as 1V8
 Text Notes 5300 8200 0    50   ~ 0
 I2C logic level translator bypass
 $Comp
-L framos-csi-adapter:TP_SMD_0_75MM TP?
+L framos-csi-adapter:TP_SMD_0_75MM TP9
 U 1 1 6270454A
 P 2100 3975
-F 0 "TP?" V 2100 3850 50  0000 C CNN
+F 0 "TP9" V 2100 3850 50  0000 C CNN
 F 1 "TP_SMD_0_75MM" H 2100 3875 50  0001 C CNN
 F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2300 4175 60  0001 L CNN
 F 3 "" H 2300 4275 60  0001 L CNN
@@ -4832,10 +4734,10 @@ Wire Wire Line
 Wire Wire Line
 	2075 3875 2225 3875
 $Comp
-L framos-csi-adapter:R_0R_0402 R?
+L framos-csi-adapter:R_0R_0402 R13
 U 1 1 6277455E
 P 2475 4075
-F 0 "R?" H 2425 4175 60  0000 C CNN
+F 0 "R13" H 2425 4175 60  0000 C CNN
 F 1 "R_0R_0402" H 2475 3925 60  0001 C CNN
 F 2 "framos-csi-adapter-footprints:0402-res" H 2675 4275 60  0001 L CNN
 F 3 "" H 2475 4075 50  0001 C CNN
@@ -4851,4 +4753,40 @@ Wire Wire Line
 	2300 4075 2325 4075
 Wire Wire Line
 	2625 4075 2650 4075
+$Comp
+L framos-csi-adapter:TP_SMD_0_75MM TP6
+U 1 1 627DA67E
+P 1900 9800
+F 0 "TP6" H 2000 9800 50  0000 C CNN
+F 1 "TP_SMD_0_75MM" H 1900 9700 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 2100 10000 60  0001 L CNN
+F 3 "" H 2100 10100 60  0001 L CNN
+	1    1900 9800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1775 9900 1900 9900
+Connection ~ 1900 9900
+Wire Wire Line
+	1900 9900 2050 9900
+Wire Wire Line
+	3750 9700 3875 9700
+Wire Wire Line
+	3375 9700 3450 9700
+$Comp
+L antmicroFixedInductors:XEL4030-332MEC L1
+U 1 1 62196C2E
+P 3600 9700
+F 0 "L1" H 3600 10001 50  0000 C CNN
+F 1 "XEL4030-332MEC" H 3600 9910 50  0000 C CNN
+F 2 "antmicro-footprints:Coilcraft-XEL4030" H 4400 9950 60  0001 C CNN
+F 3 "https://www.coilcraft.com/getmedia/8245f050-f190-4295-8c41-7c03d662ee3d/xel4030.pdf" H 3655 9730 60  0001 C CNN
+F 4 "XEL4030-332MEC" H 3800 10200 50  0001 C CNN "MPN"
+F 5 "Coilcraft" H 3900 10300 50  0001 C CNN "Manufacturer"
+F 6 "3u3/5.9A" H 3600 9819 50  0000 C CNN "Val"
+F 7 "5.9A" H 3675 10125 50  0001 C CNN "MaxCur"
+F 8 "4x4" H 3725 10025 50  0001 C CNN "Size"
+	1    3600 9700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
