@@ -1,0 +1,39 @@
+stages:
+  - build
+
+build_outputs:
+   stage: build
+   image: docker.antmicro.com:5000/repositories/antmicro-kmake-script:kmake2
+   script:
+     - kmake sch || echo PDF schematic error
+     - kmake dnp
+     - kmake bom
+     - kmake assemblydrw 
+     - kmake pastedrw
+     - kmake gerber
+     - kmake fixoutline
+     - kmake 3d || echo 3d viz error
+     - kmake step || echo STEP output error
+#STLopt     - kmake step stl || echo STEP/STL output error  
+     - R="antmicro-picknplace-job-maker"; git clone -n --depth 1 https://gitlab-ci-token:${CI_JOB_TOKEN}@dev.antmicro.com/git/$R.git && git -C $R show HEAD:default-stacktable.csv > stacktable.csv && rm -rf $R 
+     - kmake pnp
+     - kmake drc
+     - kmake sourcing > doc/sourcing.rpt
+     - kmake 3d ray || echo 3d viz raytracing error 
+   artifacts:
+     expire_in: 2 week
+     paths:
+       - doc/*.pdf
+       - doc/*.csv
+       - doc/*.rpt
+       - fab/*.gbr
+       - fab/*.pdf
+       - fab/*.csv
+       - fab/*.dpv
+       - img/*.png
+       - 3d-model/*.stp
+#STLopt       - 3d-model/*.stl
+#       - img/*.ogv
+#       - doc/*.ogv
+#   when: manual
+
