@@ -367,6 +367,7 @@ F 3 "" H 2850 3975 50  0001 C CNN
 F 4 "PANASONIC" H 3050 4375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3050 4275 60  0001 L CNN "MPN"
 F 6 "0R" H 3000 3925 50  0000 C CNN "Val"
+F 7 "DNP" H 2850 3975 50  0000 C CNN "DNP"
 	1    2850 3975
 	1    0    0    -1  
 $EndComp
@@ -381,6 +382,7 @@ F 3 "" H 2850 4075 50  0001 C CNN
 F 4 "PANASONIC" H 3050 4475 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3050 4375 60  0001 L CNN "MPN"
 F 6 "0R" H 3000 4025 50  0000 C CNN "Val"
+F 7 "DNP" H 2850 4075 50  0000 C CNN "DNP"
 	1    2850 4075
 	1    0    0    -1  
 $EndComp
@@ -692,19 +694,6 @@ F 5 "RC0402FR-072K2L" H 4850 7650 60  0001 L CNN "MPN"
 F 6 "2k2" V 4703 7420 50  0000 L CNN "Val"
 	1    4650 7350
 	0    1    1    0   
-$EndComp
-$Comp
-L framos-csi-adapter:NTS0102DP U1
-U 1 1 61D1A7EF
-P 6125 7750
-F 0 "U1" H 5875 8150 50  0000 C CNN
-F 1 "NTS0102DP" H 6125 7550 50  0000 C CNN
-F 2 "framos-csi-adapter-footprints:TSSOP-8_W3mm" H 6025 8250 50  0001 C CNN
-F 3 "" H 6775 8500 50  0001 C CNN
-F 4 "NTS0102DP" H 6075 7350 50  0001 C CNN "MPN"
-F 5 "NXP Semiconductors" H 6225 7450 50  0001 C CNN "Manufacturer"
-	1    6125 7750
-	1    0    0    -1  
 $EndComp
 Text GLabel 4500 7600 0    50   BiDi ~ 0
 CAM_SCL_1V8
@@ -4094,19 +4083,19 @@ Wire Wire Line
 $Comp
 L framos-csi-adapter:TP_SMD1MM TP18
 U 1 1 622E82D8
-P 7975 9725
-F 0 "TP18" H 7925 9772 50  0000 R CNN
-F 1 "TP_SMD1MM" H 7975 9625 50  0001 C CNN
-F 2 "framos-csi-adapter-footprints:Testpoint_smd_1mm" H 8175 9925 60  0001 L CNN
-F 3 "" H 8175 10025 60  0001 L CNN
-	1    7975 9725
+P 7900 9725
+F 0 "TP18" H 7850 9772 50  0000 R CNN
+F 1 "TP_SMD1MM" H 7900 9625 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_1mm" H 8100 9925 60  0001 L CNN
+F 3 "" H 8100 10025 60  0001 L CNN
+	1    7900 9725
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8150 9825 7975 9825
-Connection ~ 7975 9825
+	8150 9825 7900 9825
+Connection ~ 7900 9825
 Wire Wire Line
-	7875 9825 7975 9825
+	7800 9825 7900 9825
 $Comp
 L framos-csi-adapter:C_100n_0402 C10
 U 1 1 622E82EF
@@ -4217,7 +4206,7 @@ F 3 "" H 10350 10075 50  0001 C CNN
 $EndComp
 Text Notes 8250 10300 0    50   ~ 0
 EN - Active H\nEN float = auto startup
-NoConn ~ 7875 9825
+NoConn ~ 7800 9825
 $Comp
 L framos-csi-adapter:R_12k4_0402 R18
 U 1 1 623010E0
@@ -4438,17 +4427,17 @@ Text GLabel 9000 4775 1    50   Input ~ 0
 1V8_CAM
 Text GLabel 8675 4800 1    50   Input ~ 0
 3V8_CAM
-Text GLabel 1925 4975 0    50   BiDi ~ 0
-CSI_D2_P
 Text GLabel 1925 4875 0    50   BiDi ~ 0
+CSI_D2_P
+Text GLabel 1925 4975 0    50   BiDi ~ 0
 CSI_D2_N
 Wire Wire Line
 	1925 4975 3675 4975
 Wire Wire Line
 	1925 4875 3675 4875
-Text GLabel 6750 4275 2    50   BiDi ~ 0
-CSI_D3_N
 Text GLabel 6750 4375 2    50   BiDi ~ 0
+CSI_D3_N
+Text GLabel 6750 4275 2    50   BiDi ~ 0
 CSI_D3_P
 Wire Wire Line
 	4675 4275 6750 4275
@@ -4472,12 +4461,12 @@ Wire Wire Line
 $Comp
 L framos-csi-adapter:TP_SMD_0_75MM TP19
 U 1 1 6234F9CE
-P 10675 9525
-F 0 "TP19" V 10675 9400 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 10675 9425 50  0001 C CNN
-F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 10875 9725 60  0001 L CNN
-F 3 "" H 10875 9825 60  0001 L CNN
-	1    10675 9525
+P 10675 9475
+F 0 "TP19" H 10625 9522 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 10675 9375 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 10875 9675 60  0001 L CNN
+F 3 "" H 10875 9775 60  0001 L CNN
+	1    10675 9475
 	-1   0    0    1   
 $EndComp
 Connection ~ 10675 9625
@@ -4486,12 +4475,12 @@ Wire Wire Line
 $Comp
 L framos-csi-adapter:TP_SMD_0_75MM TP17
 U 1 1 62352199
-P 4600 9600
-F 0 "TP17" H 4600 9525 50  0000 C CNN
-F 1 "TP_SMD_0_75MM" H 4600 9500 50  0001 C CNN
-F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 4800 9800 60  0001 L CNN
-F 3 "" H 4800 9900 60  0001 L CNN
-	1    4600 9600
+P 4600 9550
+F 0 "TP17" H 4550 9597 50  0000 R CNN
+F 1 "TP_SMD_0_75MM" H 4600 9450 50  0001 C CNN
+F 2 "framos-csi-adapter-footprints:Testpoint_smd_0_75mm" H 4800 9750 60  0001 L CNN
+F 3 "" H 4800 9850 60  0001 L CNN
+	1    4600 9550
 	-1   0    0    1   
 $EndComp
 Connection ~ 4600 9700
@@ -4604,8 +4593,6 @@ Wire Wire Line
 Connection ~ 2475 3275
 Wire Wire Line
 	2475 3275 3675 3275
-Text Notes 5025 6625 0    50   ~ 0
-JNB can have I2C configured as 1V8
 $Comp
 L framos-csi-adapter:R_0R_0402 R17
 U 1 1 6263D275
@@ -4789,4 +4776,23 @@ F 6 "37k4" V 3928 9970 50  0000 L CNN "Val"
 	1    3875 9900
 	0    1    1    0   
 $EndComp
+Text Notes 7550 7675 0    50   ~ 0
+Pull-up resistors from 3V3 side are placed on JNB
+$Comp
+L framos-csi-adapter:NTS0102GT U1
+U 1 1 62CC3337
+P 6125 7750
+F 0 "U1" H 6125 8265 50  0000 C CNN
+F 1 "NTS0102GT" H 6125 8174 50  0000 C CNN
+F 2 "antmicro-footprints:PSON50P100X195X50-8N" H 6025 8250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1760723.pdf" H 6775 8500 50  0001 C CNN
+F 4 "NTS0102GT" H 6125 8265 50  0001 C CNN "MPN"
+F 5 "NXP Semiconductors" H 6125 8174 50  0001 C CNN "Manufacturer"
+	1    6125 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10675 9575 10675 9625
+Wire Wire Line
+	4600 9650 4600 9700
 $EndSCHEMATC
