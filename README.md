@@ -1,25 +1,34 @@
 # Framos CSI Adapter
-Copyright (c) 2018-2022 [Antmicro](https://www.antmicro.com>)
 
-![Adapter Visualization](img/framos-csi-adapter-vis.png)
+Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
+
+![FSA to CSI Adapter Visualization](img/framos-csi-adapter-vis.png)
 
 ## Overview
-This repository contains open hardware design files for an CSI Adapter.
-Board serves as an adapter between a `Framos Sensor Adapter` (FSA) and a 30-pin wire to board connector. Adapter board has the same size as FSA and stacks with it when connected. 
-The design files were prepared in KiCad 6.
+
+This repository contains open hardware design files for an FSA to CSI Adapter.
+
+The board serves as a connector adapter between a [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408) (FSA) and a 30-wire I-PEX micro coax cable.
+
+The adapter board is the same size as the FSA and can be stacked with it.
 
 ## Repository structure
-The main repository directory contains KiCad PCB project files, a LICENSE and README.
+
+The main repository directory contains KiCad PCB project files, a [LICENSE](LICENSE), and a README.
+
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
-* `img` - contains graphics for this README
+* `lib` - contains the component libraries,
+* `doc` - contains the adapter [schematics](doc/framos-csi-adapter.pdf),
+* `img` - contains graphics for this README.
 
 ## Key features
-* On-board DC-DC converters to power the FSA board
-* Voltage level translator for I2C interface
-* DF40C-60DS connector compatibile with `Framos Sensor Adapter`
-* MSAK24024 Series 30-pin connector compatibile [Dual Ipex CSI Interposer](github_address) developed by Antmicro 
+
+* CSI-2 MIPI camera interface,
+* On-board DC-DC converters to power the FSA board and a camera module,
+* I2C bus voltage level translator,
+* DF40C-60DS connector for [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408),
+* MSAK24024 Series 30-pin wire connector (interface compatible with the [Dual Ipex CSI Interposer](https://github.com/antmicro/dual-ipex-csi-interposer) developed by Antmicro).
 
 ## License
 
