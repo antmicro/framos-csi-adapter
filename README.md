@@ -18,17 +18,17 @@ The main repository directory contains KiCad PCB project files, a [LICENSE](LICE
 
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries,
-* `doc` - contains the adapter [schematics](doc/framos-csi-adapter.pdf),
-* `img` - contains graphics for this README.
+* `lib` - contains the component libraries
+* `doc` - contains the adapter [schematics](doc/framos-csi-adapter.pdf)
+* `img` - contains graphics for this README
 
 ## Key features
 
-* CSI-2 MIPI camera interface,
-* On-board DC-DC converters to power the FSA board and a camera module,
-* I2C bus voltage level translator,
-* DF40C-60DS connector for [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408),
-* MSAK24024 Series 30-pin wire connector (interface compatible with the [Dual Ipex CSI Interposer](https://github.com/antmicro/dual-ipex-csi-interposer) developed by Antmicro).
+* CSI-2 MIPI camera interface
+* On-board DC-DC converters to power the FSA board and a camera module
+* I2C bus voltage level translator
+* DF40C-60DS connector for [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408)
+* MSAK24024 Series 30-pin IPEX-type connector
 
 ## License
 
