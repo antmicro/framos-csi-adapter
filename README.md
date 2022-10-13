@@ -2,7 +2,7 @@
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
 
-![FSA to CSI Adapter Visualization](img/framos-csi-adapter-vis.png)
+![FSA to CSI Adapter](img/framos-csi-adapter.png)
 
 ## Overview
 
