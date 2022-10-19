@@ -8,9 +8,10 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
 
 This repository contains open hardware design files for an FSA to CSI Adapter.
 
-The board serves as a connector adapter between a [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408) (FSA) and a 30-wire I-PEX micro coax cable.
+The board serves as a connector adapter between a [FRAMOS Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408) (FSA) and a 30-wire I-PEX micro coax cable.
 
 The adapter board is the same size as the FSA and can be stacked with it.
+The adapter board can be interfaced with a variety of video processing platforms created by Antmicro using the [Dual I-PEX CSI Interposer](https://github.com/antmicro/dual-ipex-csi-interposer).
 
 ## Repository structure
 
@@ -27,7 +28,7 @@ The remaining files are stored in the following directories:
 * CSI-2 MIPI camera interface
 * On-board DC-DC converters to power the FSA board and a camera module
 * I2C bus voltage level translator
-* DF40C-60DS connector for [Framos Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408)
+* DF40C-60DS connector for [FRAMOS Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408)
 * MSAK24024 Series 30-pin IPEX-type connector
 
 ## License
