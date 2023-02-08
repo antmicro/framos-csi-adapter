@@ -25,8 +25,8 @@ The remaining files are stored in the following directories:
 
 ## Key features
 
-* CSI-2 MIPI camera interface
-* On-board DC-DC converters to power the FSA board and a camera module
+* MIPI CSI-2 camera interface
+* On-board DC-DC converters to power the FSA board and camera module
 * I2C bus voltage level translator
 * DF40C-60DS connector for [FRAMOS Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408)
 * MSAK24024 Series 30-pin IPEX-type connector
