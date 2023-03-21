@@ -1,4 +1,4 @@
-# Framos CSI Adapter
+# FRAMOS CSI Adapter
 
 Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
 
@@ -8,7 +8,7 @@ Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
 
 This repository contains open hardware design files for an FSA to CSI Adapter.
 
-The board serves as a connector adapter between a [FRAMOS Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408) (FSA) and a 30-wire I-PEX micro coax cable.
+The board serves as a connector adapter between a [FRAMOS&reg; Sensor Module Adapter](https://www.framos.com/en/products/framos-sensor-module-adapter-fsa-22408) (FSA) and a 30-wire I-PEX micro coax cable.
 
 The adapter board is the same size as the FSA and can be stacked with it.
 The adapter board can be interfaced with a variety of video processing platforms created by Antmicro using the [Dual I-PEX CSI Interposer](https://github.com/antmicro/dual-ipex-csi-interposer).
