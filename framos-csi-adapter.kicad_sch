@@ -6,7 +6,7 @@
 
   (title_block
     (title "FRAMOS CSI adapter")
-    (date "2023-07-10")
+    (date "2023-10-16")
     (rev "1.1.1")
   )
 
@@ -7527,7 +7527,7 @@
     (property "Author" "Antmicro" (id 11) (at 151.765 269.875 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (id 11) (at 151.765 272.415 0)
+    (property "License" "Apache-2.0" (id 12) (at 151.765 272.415 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 0a677a8a-3e27-4794-bb56-f9d1aeda4602))
@@ -7570,7 +7570,7 @@
     (property "Author" "Antmicro" (id 11) (at 269.24 269.875 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "License" "Apache-2.0" (id 11) (at 269.24 272.415 0)
+    (property "License" "Apache-2.0" (id 12) (at 269.24 272.415 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 371cd9c7-d5f6-421b-b51a-bc786d055388))
