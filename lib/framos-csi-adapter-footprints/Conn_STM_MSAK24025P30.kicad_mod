@@ -6796,8 +6796,8 @@
   (pad "30" smd rect (at 7.249 -1.875) (size 0.3 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5c1bd2e2-0a37-4f08-bd1b-6fa5f19ebc09))
   (pad "SH" smd rect (at 9.179 -0.016) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 24ce9bf1-5699-42f3-9976-c0297c3c57eb))
   (pad "SH" smd rect (at -9.18 -0.016) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d6ae16d8-5bbc-47c3-aa8b-968c6c4259d9))
-  (model "${KIPRJMOD}/lib/3d-models/20455-030E-xxC.step"
-    (offset (xyz 0.0000004999999996 -0.525 0))
+  (model "/home/data/antmicro/projects/antmicro/framos-csi-adapter-hw/lib/3d-models/20455-030E-xxC.step"
+    (offset (xyz 4.999999996e-07 -0.525 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
