@@ -1982,7 +1982,7 @@
   (pad "58" smd rect (at 5.397 -1.321) (size 0.2 1.14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b374a0d8-8ac9-46d3-b786-57018144b22b))
   (pad "59" smd rect (at 5.799 1.32) (size 0.2 1.14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d4394efa-af64-4086-a36e-f08a66d20c84))
   (pad "60" smd rect (at 5.799 -1.321) (size 0.2 1.14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a0a58b0-325b-4043-bf32-f714dd085c7f))
-  (model "${KIPRJMOD}/lib/3d-models/DF40C-60DS.step"
+  (model "/home/data/antmicro/projects/antmicro/framos-csi-adapter-hw/lib/3d-models/DF40C-60DS.step"
     (offset (xyz -2.114 -0.0015 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
