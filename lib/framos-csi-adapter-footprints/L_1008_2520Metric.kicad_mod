@@ -48,7 +48,7 @@
   (fp_line (start -1.25 0.997) (end -1.25 -0.999) (layer "User.9") (width 0.02) (tstamp fbb8caef-69b5-4b50-9ce6-72113a2bb8ef))
   (pad "1" smd roundrect (at -1.075 0.001) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 32edb4cb-b4bb-4aa9-9ca9-3d870fbc4d4b))
   (pad "2" smd roundrect (at 1.074 0.001) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 177af0d7-065b-4aee-8d75-d99d1ed97e4d))
-  (model "/home/data/antmicro/projects/antmicro/framos-csi-adapter-hw/lib/3d-models/WE-PMI-1008.step"
+  (model "${KIPRJMOD}/lib/3d-models/WE-PMI-1008.step"
     (offset (xyz 0.0005 -0.001 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

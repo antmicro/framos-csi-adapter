@@ -1264,7 +1264,7 @@
   (pad "4" smd roundrect (at 0.747 0.497 270) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 919e563b-a8d2-443a-ad40-e8b16598470a))
   (pad "5" smd roundrect (at 0.747 0.001 270) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 71b7dd58-96f2-473b-b8bc-30d6bd0187d4))
   (pad "6" smd roundrect (at 0.747 -0.499 270) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d15504fb-5bf4-41de-bfc6-4ff52290aa80))
-  (model "/home/data/antmicro/projects/antmicro/framos-csi-adapter-hw/lib/3d-models/SOT-666.step"
+  (model "${KIPRJMOD}/lib/3d-models/SOT-666.step"
     (offset (xyz -0.001 -0.001 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
