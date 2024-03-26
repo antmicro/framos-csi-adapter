@@ -321,7 +321,7 @@
       (net 20 "CAM_SCL_1V8") (pintype "passive") (tstamp 3d47634a-8da8-47f4-95f8-8fb282759715))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "CAM_SCL_3V3") (pintype "passive") (tstamp 4437e22e-e32d-4ac8-809b-1a8620581459))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -956,7 +956,7 @@
       (net 37 "5V0_SYS") (pintype "passive") (tstamp d09503ec-0b66-4111-bd32-c46de3ed2260))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 8f8db830-0651-4bf7-be79-4c639630ef27))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1018,7 +1018,7 @@
       (net 46 "Net-(R10-Pad1)") (pintype "passive") (tstamp 3fe87466-bc92-4cd4-9e8b-12b393b7c2b4))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "/INCK") (pintype "passive") (tstamp 67aa439c-f695-45eb-b3f9-f3214637f955))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1617,7 +1617,7 @@
       (net 37 "5V0_SYS") (pintype "passive") (tstamp 1ad1f9bb-de04-44cf-a137-db83b5a02af0))
     (pad "2" smd roundrect (at 0.7 0 90) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 22556565-997f-4fc0-9d35-ea4f2efa2453))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -1679,7 +1679,7 @@
       (net 18 "CAM_SDA_1V8") (pintype "passive") (tstamp 8d06c1a9-e0cd-4287-b61c-5cdd624901be))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 24 "CAM_SDA_3V3") (pintype "passive") (tstamp d8e68c26-b300-49a1-8abe-0da03bdbca2d))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1739,7 +1739,7 @@
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 19e79362-64c3-4fd4-8316-03a88cff27d1))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "Net-(D1-Pad1)") (pintype "passive") (tstamp fb0b37e7-d16d-4ec4-830e-0aa7a4afd226))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1811,7 +1811,7 @@
       (net 41 "Net-(U3-SW)") (pintype "passive") (tstamp 37c019f7-3c00-4825-bc78-f7a931ebb633))
     (pad "2" smd roundrect (at 1.075 0 180) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 93aca5b8-0628-44af-bc29-16f6ed40cec8))
-    (model "${ANT3DMDL}/WE-PMI-1008.step"
+    (model "${KIPRJMOD}/lib/3d-models/WE-PMI-1008.step"
       (offset (xyz 0.0005 -0.001 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -2543,7 +2543,7 @@
       (net 36 "3V3FFC") (pintype "passive") (tstamp ddabbe92-e426-4c85-b270-0ed8ca2a5c55))
     (pad "2" smd roundrect (at 0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 448635a3-c6da-4698-9d1e-e979c444b0fa))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2604,7 +2604,7 @@
       (net 3 "/PW_EN_1") (pintype "passive") (tstamp d2bf082d-14ee-48c9-a01b-fbbeb730eca9))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp f86c0bac-43e5-43a4-bfbf-057f92aa96ab))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3203,7 +3203,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 12f0ec8f-ab88-4adb-9445-d663a244991e))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 1469be39-c6e3-492c-9d0c-c7bc3a8b2ffc))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -3264,7 +3264,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 3423b690-87e1-4433-ae98-129efc995d45))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/PW_EN_0") (pintype "passive") (tstamp 52b119e8-d22a-4280-9777-f66ffb3a3bc4))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3336,7 +3336,7 @@
       (net 39 "Net-(U2-SW)") (pintype "passive") (tstamp cc70856b-acb7-40a2-b2cc-6217e2a39637))
     (pad "2" smd roundrect (at 1.075 0) (size 1.25 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 8c3d15f1-24c7-4393-ae00-8204d7ad75cb))
-    (model "${ANT3DMDL}/WE-PMI-1008.step"
+    (model "${KIPRJMOD}/lib/3d-models/WE-PMI-1008.step"
       (offset (xyz 0.0005 -0.001 0.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -4068,7 +4068,7 @@
       (net 38 "Net-(U2-BST)") (pintype "passive") (tstamp 080a0cc7-7c0b-401f-b3d4-69426a2ceb6b))
     (pad "2" smd roundrect (at 0.484 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 39 "Net-(U2-SW)") (pintype "passive") (tstamp a86bbea8-c0e0-45a6-9581-79dee983bd3a))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4128,7 +4128,7 @@
       (net 22 "CSI_CAM_EN") (pintype "passive") (tstamp ba32d5fb-e3a1-4cc3-8382-f15c25be4cbd))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/PW_EN_0") (pintype "passive") (tstamp 10d0b5ca-5275-43ab-8b8c-0acade04ca39))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4476,7 +4476,7 @@
       (net 25 "Net-(D1-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 70d9a774-cb88-4eb2-9f26-3689e512af61))
     (pad "2" smd rect (at 0.75 0 270) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "2") (pintype "passive") (tstamp aa8ab3e9-2db2-4b03-94b8-24b0eb6bcbe8))
-    (model "${ANT3DMDL}/LED_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/LED_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5075,7 +5075,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 0e8eba01-1ff6-4786-92f2-fdc9462406de))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 07a5ac31-58cc-4e41-9648-96d5c80f9bc3))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -5136,7 +5136,7 @@
       (net 22 "CSI_CAM_EN") (pintype "passive") (tstamp fe3c3a12-233d-484f-8883-eb4d94284218))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "/PW_EN_1") (pintype "passive") (tstamp 10971041-3d83-40dd-aee0-ef086377d210))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5198,7 +5198,7 @@
       (net 46 "Net-(R10-Pad1)") (pintype "passive") (tstamp cb473a58-6e95-4e2d-93df-62e4320ebe2b))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/MCLK1") (pintype "passive") (tstamp 9e97d47b-f204-4b26-9918-582655f74fec))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5930,7 +5930,7 @@
       (net 40 "Net-(U3-BST)") (pintype "passive") (tstamp a1805dbc-c2d4-43f7-b52f-499af12fba38))
     (pad "2" smd roundrect (at 0.484 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(U3-SW)") (pintype "passive") (tstamp 7cc9b73b-f463-46de-9e36-e5ae43a1121e))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6529,7 +6529,7 @@
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 80c9598a-3281-4006-b814-e759c2ea701f))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 477a88ce-80c8-416b-bf6b-da74d203b8b0))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -7128,7 +7128,7 @@
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 0ff3b994-ce7e-42ce-b760-5fafdaf73498))
     (pad "2" smd roundrect (at 0.7 0 270) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 1 "GND") (pintype "passive") (tstamp 9e27f95b-eecb-43ac-8759-7c9ec151d7a3))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -7188,7 +7188,7 @@
       (net 47 "Net-(U2-FB)") (pintype "passive") (tstamp 270aa350-e514-4cf1-a7b3-8d4276d6ecce))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp a7cf3b2a-eba2-49cb-88bf-08f3af13934d))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8475,7 +8475,7 @@
       (net 61 "Net-(U3-EN)") (pinfunction "EN") (pintype "input") (tstamp 3feffd8e-34e3-4b64-8208-82622eb9ac74))
     (pad "6" smd roundrect (at 0.747 -0.499 270) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 48 "Net-(U3-FB)") (pinfunction "FB") (pintype "input") (tstamp 412b763e-8097-4ad4-9246-31998b3fa169))
-    (model "${ANT3DMDL}/SOT-666.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-666.step"
       (offset (xyz -0.001 -0.001 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -9207,7 +9207,7 @@
       (net 36 "3V3FFC") (pintype "passive") (tstamp 34b50576-d596-46db-8322-7a71f16d4457))
     (pad "2" smd roundrect (at 0.484 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 33b86a75-cf09-47f9-87a0-29e8f7abe70d))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16049,7 +16049,7 @@
       (net 37 "5V0_SYS") (pinfunction "30") (pintype "passive") (tstamp 830b5cce-5d42-4e5e-8cc8-31187db33352))
     (pad "SH" smd rect locked (at -9.18 -0.016 180) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 748f85a7-2647-49c2-9254-752b9f21336c))
     (pad "SH" smd rect locked (at 9.179 -0.016 180) (size 2.7 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3dc4b25e-aa3f-44a9-aaa5-d3bd1d17aeb4))
-    (model "${ANT3DMDL}/20455-030E-xxC.step"
+    (model "${KIPRJMOD}/lib/3d-models/20455-030E-xxC.step"
       (offset (xyz 4.999999996e-07 -0.525 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -16109,7 +16109,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 998b50d2-c39b-4783-a4c3-3843b22818df))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/PW_EN_0") (pintype "passive") (tstamp 0912750c-f897-4103-967b-10012fef1460))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16877,7 +16877,7 @@
       (net 37 "5V0_SYS") (pintype "passive") (tstamp 33294ec6-d1eb-4d32-b991-c3462ef1fb15))
     (pad "2" smd roundrect (at 0.484 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp a8129cf4-4d32-4bf5-985f-de972169223e))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16937,7 +16937,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 11e83a41-db0d-478b-9e2d-1d550b42e27e))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 48 "Net-(U3-FB)") (pintype "passive") (tstamp 68eb7313-6c71-4ba6-b60f-5683c38f96b3))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -16999,7 +16999,7 @@
       (net 21 "CSI_CAM_CLK") (pintype "passive") (tstamp 6e939414-3177-4ba9-86d0-de9a0f557f45))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 46 "Net-(R10-Pad1)") (pintype "passive") (tstamp 93dcfa9e-2703-4b20-880d-cd7060926969))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -19444,7 +19444,7 @@
       (net 60 "Net-(U2-EN)") (pinfunction "EN") (pintype "input") (tstamp 3b30120d-df62-46ea-8388-778c9c44e6aa))
     (pad "6" smd roundrect (at 0.747 -0.499 90) (size 0.3 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 47 "Net-(U2-FB)") (pinfunction "FB") (pintype "input") (tstamp 91fbab1a-8a31-453e-a395-3799d9e7a2ba))
-    (model "${ANT3DMDL}/SOT-666.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT-666.step"
       (offset (xyz -0.001 -0.001 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -19759,7 +19759,7 @@
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 4cfca5a6-774c-484e-8398-e059401b60bb))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 47 "Net-(U2-FB)") (pintype "passive") (tstamp 39171caf-7847-4dc9-8b90-19f9dec34f6f))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -19826,7 +19826,7 @@
       (net 36 "3V3FFC") (pinfunction "VCC_{B}") (pintype "power_in") (tstamp f1523fff-5f7e-4a1f-859c-4d5ee1e31b1c))
     (pad "8" smd rect (at 0.33 -0.75 90) (size 0.5 0.31) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "CAM_SCL_3V3") (pinfunction "B_{1}") (pintype "bidirectional") (tstamp 3454c408-ac25-4a26-8bf7-8f7518abb21c))
-    (model "${ANT3DMDL}/SOT833-1.step"
+    (model "${KIPRJMOD}/lib/3d-models/SOT833-1.step"
       (offset (xyz -0.5 1 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -19922,7 +19922,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 71765a81-181f-4d15-b690-1d7aeea25f00))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "CAM_SCL_1V8") (pintype "passive") (tstamp c4164538-fdbe-4145-9273-eb7c3069f654))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -19982,7 +19982,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 43072c71-985c-4120-98a9-69c4d75e5509))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 18 "CAM_SDA_1V8") (pintype "passive") (tstamp e724dee9-4a79-4b29-8a87-58a1728859a9))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -20714,7 +20714,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 3d3b2b07-50d5-4171-95fe-23f998038d0e))
     (pad "2" smd roundrect (at 0.484 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 8bb84e38-9ed6-432e-b14f-f86c3989fc57))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -20774,7 +20774,7 @@
       (net 48 "Net-(U3-FB)") (pintype "passive") (tstamp ee7e1362-96d3-4de5-9e31-fcd1a26e2d91))
     (pad "2" smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp cfb4966e-8193-4d70-a8d6-71b3225aa86d))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -20834,7 +20834,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp f0d069d6-26f1-4eb4-95d0-9259df1fd70b))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 3 "/PW_EN_1") (pintype "passive") (tstamp c5d16455-d656-4c45-985d-cb7aabe98ce9))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -23639,7 +23639,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 0c648100-c9cf-402e-a9fc-b7a09c69e024))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 35 "/XCLR") (pintype "passive") (tstamp 8d19d170-6166-4682-96c0-dae9890a1fb7))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -25736,7 +25736,7 @@
       (net 43 "CSI_D2_N") (pintype "passive") (tstamp 1b529a8a-d4b3-476f-9ccc-3284800dd554))
     (pad "60" smd rect locked (at 5.799 1.321 180) (size 0.2 1.14) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 11 "CSI_CLK_N") (pintype "passive") (tstamp 108215df-fa40-4151-af26-da05ddb9001d))
-    (model "${ANT3DMDL}/Conn_Socket_Hirose_DF40_2x30_DF40C-60DS-0.4V.step"
+    (model "${KIPRJMOD}/lib/3d-models/Conn_Socket_Hirose_DF40_2x30_DF40C-60DS-0.4V.step"
       (offset (xyz -2.114 -0.0015 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -26468,7 +26468,7 @@
       (net 9 "3V8_CAM") (pintype "passive") (tstamp 9555bc88-c8f1-4ab8-9d35-837143aaac6e))
     (pad "2" smd roundrect (at 0.484 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp d6d8b982-a1a1-40c5-8ee2-19690939e1cf))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -27276,7 +27276,7 @@
       (net 8 "1V8_CAM") (pintype "passive") (tstamp 3c143ed5-dc91-40da-90b4-7ff8b0f2f328))
     (pad "2" smd roundrect (at 0.484 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp e23b4c50-3385-4dea-b458-ddc3f332e3a2))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
