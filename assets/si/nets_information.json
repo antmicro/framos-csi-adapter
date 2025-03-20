@@ -2,94 +2,6 @@
   "nets": [
     {
       "name": [
-        "CSI_D1_P",
-        "CSI_D1_N"
-      ],
-      "length": [
-        "23.727",
-        "23.727"
-      ],
-      "width": [
-        "0.200",
-        "0.200"
-      ],
-      "impedance": 100,
-      "diff": true,
-      "charts": {
-        "impedance": [
-          "./CSI_D1_PN/results/Z_1.png",
-          "./CSI_D1_PN/results/Z_3.png"
-        ],
-        "smith": [
-          "./CSI_D1_PN/results/S_11_smith.png",
-          "./CSI_D1_PN/results/S_33_smith.png"
-        ],
-        "s-param": [
-          "./CSI_D1_PN/results/S_x1.png",
-          "./CSI_D1_PN/results/S_x3.png"
-        ],
-        "diff_delay": [
-          "./CSI_D1_PN/results/diff_delay.png"
-        ],
-        "diff_impedance": [
-          "./CSI_D1_PN/results/Z_diff.png"
-        ],
-        "diff_s-param": [
-          "./CSI_D1_PN/results/SDD_Diff.png"
-        ],
-        "s-param_and_smith": [
-          "./CSI_D1_PN/results/s_param_and_smith_1.png",
-          "./CSI_D1_PN/results/s_param_and_smith_3.png"
-        ]
-      },
-      "image": "./CSI_D1_PN/top_view.png"
-    },
-    {
-      "name": [
-        "CSI_D2_P",
-        "CSI_D2_N"
-      ],
-      "length": [
-        "23.717",
-        "23.717"
-      ],
-      "width": [
-        "0.150",
-        "0.150"
-      ],
-      "impedance": 100,
-      "diff": true,
-      "charts": {
-        "impedance": [
-          "./CSI_D2_PN/results/Z_1.png",
-          "./CSI_D2_PN/results/Z_3.png"
-        ],
-        "smith": [
-          "./CSI_D2_PN/results/S_11_smith.png",
-          "./CSI_D2_PN/results/S_33_smith.png"
-        ],
-        "s-param": [
-          "./CSI_D2_PN/results/S_x1.png",
-          "./CSI_D2_PN/results/S_x3.png"
-        ],
-        "diff_delay": [
-          "./CSI_D2_PN/results/diff_delay.png"
-        ],
-        "diff_impedance": [
-          "./CSI_D2_PN/results/Z_diff.png"
-        ],
-        "diff_s-param": [
-          "./CSI_D2_PN/results/SDD_Diff.png"
-        ],
-        "s-param_and_smith": [
-          "./CSI_D2_PN/results/s_param_and_smith_1.png",
-          "./CSI_D2_PN/results/s_param_and_smith_3.png"
-        ]
-      },
-      "image": "./CSI_D2_PN/top_view.png"
-    },
-    {
-      "name": [
         "CSI_D0_P",
         "CSI_D0_N"
       ],
@@ -101,36 +13,36 @@
         "0.150",
         "0.150"
       ],
-      "impedance": 100,
+      "impedance": 50.0,
       "diff": true,
       "charts": {
         "impedance": [
-          "./CSI_D0_PN/results/Z_1.png",
-          "./CSI_D0_PN/results/Z_3.png"
+          "./CSI_D0_Diff/Z_1.png",
+          "./CSI_D0_Diff/Z_3.png"
         ],
         "smith": [
-          "./CSI_D0_PN/results/S_11_smith.png",
-          "./CSI_D0_PN/results/S_33_smith.png"
+          "./CSI_D0_Diff/S_11_smith.png",
+          "./CSI_D0_Diff/S_33_smith.png"
         ],
         "s-param": [
-          "./CSI_D0_PN/results/S_x1.png",
-          "./CSI_D0_PN/results/S_x3.png"
+          "./CSI_D0_Diff/S_x1.png",
+          "./CSI_D0_Diff/S_x3.png"
         ],
         "diff_delay": [
-          "./CSI_D0_PN/results/diff_delay.png"
+          "./CSI_D0_Diff/diff_delay.png"
         ],
         "diff_impedance": [
-          "./CSI_D0_PN/results/Z_diff.png"
+          "./CSI_D0_Diff/Z_diff.png"
         ],
         "diff_s-param": [
-          "./CSI_D0_PN/results/SDD_Diff.png"
+          "./CSI_D0_Diff/SDD_Diff.png"
         ],
         "s-param_and_smith": [
-          "./CSI_D0_PN/results/s_param_and_smith_1.png",
-          "./CSI_D0_PN/results/s_param_and_smith_3.png"
+          "./CSI_D0_Diff/s_param_and_smith_1.png",
+          "./CSI_D0_Diff/s_param_and_smith_3.png"
         ]
       },
-      "image": "./CSI_D0_PN/top_view.png"
+      "image": "./CSI_D0_Diff/top_view.png"
     },
     {
       "name": [
@@ -145,36 +57,124 @@
         "0.150",
         "0.150"
       ],
-      "impedance": 100,
+      "impedance": 50.0,
       "diff": true,
       "charts": {
         "impedance": [
-          "./CSI_CLK_PN/results/Z_1.png",
-          "./CSI_CLK_PN/results/Z_3.png"
+          "./CSI_CLK_Diff/Z_1.png",
+          "./CSI_CLK_Diff/Z_3.png"
         ],
         "smith": [
-          "./CSI_CLK_PN/results/S_11_smith.png",
-          "./CSI_CLK_PN/results/S_33_smith.png"
+          "./CSI_CLK_Diff/S_11_smith.png",
+          "./CSI_CLK_Diff/S_33_smith.png"
         ],
         "s-param": [
-          "./CSI_CLK_PN/results/S_x1.png",
-          "./CSI_CLK_PN/results/S_x3.png"
+          "./CSI_CLK_Diff/S_x1.png",
+          "./CSI_CLK_Diff/S_x3.png"
         ],
         "diff_delay": [
-          "./CSI_CLK_PN/results/diff_delay.png"
+          "./CSI_CLK_Diff/diff_delay.png"
         ],
         "diff_impedance": [
-          "./CSI_CLK_PN/results/Z_diff.png"
+          "./CSI_CLK_Diff/Z_diff.png"
         ],
         "diff_s-param": [
-          "./CSI_CLK_PN/results/SDD_Diff.png"
+          "./CSI_CLK_Diff/SDD_Diff.png"
         ],
         "s-param_and_smith": [
-          "./CSI_CLK_PN/results/s_param_and_smith_1.png",
-          "./CSI_CLK_PN/results/s_param_and_smith_3.png"
+          "./CSI_CLK_Diff/s_param_and_smith_1.png",
+          "./CSI_CLK_Diff/s_param_and_smith_3.png"
         ]
       },
-      "image": "./CSI_CLK_PN/top_view.png"
+      "image": "./CSI_CLK_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "CSI_D2_P",
+        "CSI_D2_N"
+      ],
+      "length": [
+        "23.717",
+        "23.717"
+      ],
+      "width": [
+        "0.150",
+        "0.150"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./CSI_D2_Diff/Z_1.png",
+          "./CSI_D2_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./CSI_D2_Diff/S_11_smith.png",
+          "./CSI_D2_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./CSI_D2_Diff/S_x1.png",
+          "./CSI_D2_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./CSI_D2_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./CSI_D2_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./CSI_D2_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./CSI_D2_Diff/s_param_and_smith_1.png",
+          "./CSI_D2_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./CSI_D2_Diff/top_view.png"
+    },
+    {
+      "name": [
+        "CSI_D1_P",
+        "CSI_D1_N"
+      ],
+      "length": [
+        "23.727",
+        "23.727"
+      ],
+      "width": [
+        "0.200",
+        "0.200"
+      ],
+      "impedance": 50.0,
+      "diff": true,
+      "charts": {
+        "impedance": [
+          "./CSI_D1_Diff/Z_1.png",
+          "./CSI_D1_Diff/Z_3.png"
+        ],
+        "smith": [
+          "./CSI_D1_Diff/S_11_smith.png",
+          "./CSI_D1_Diff/S_33_smith.png"
+        ],
+        "s-param": [
+          "./CSI_D1_Diff/S_x1.png",
+          "./CSI_D1_Diff/S_x3.png"
+        ],
+        "diff_delay": [
+          "./CSI_D1_Diff/diff_delay.png"
+        ],
+        "diff_impedance": [
+          "./CSI_D1_Diff/Z_diff.png"
+        ],
+        "diff_s-param": [
+          "./CSI_D1_Diff/SDD_Diff.png"
+        ],
+        "s-param_and_smith": [
+          "./CSI_D1_Diff/s_param_and_smith_1.png",
+          "./CSI_D1_Diff/s_param_and_smith_3.png"
+        ]
+      },
+      "image": "./CSI_D1_Diff/top_view.png"
     },
     {
       "name": [
@@ -189,36 +189,36 @@
         "0.150",
         "0.150"
       ],
-      "impedance": 100,
+      "impedance": 50.0,
       "diff": true,
       "charts": {
         "impedance": [
-          "./CSI_D3_PN/results/Z_1.png",
-          "./CSI_D3_PN/results/Z_3.png"
+          "./CSI_D3_Diff/Z_1.png",
+          "./CSI_D3_Diff/Z_3.png"
         ],
         "smith": [
-          "./CSI_D3_PN/results/S_11_smith.png",
-          "./CSI_D3_PN/results/S_33_smith.png"
+          "./CSI_D3_Diff/S_11_smith.png",
+          "./CSI_D3_Diff/S_33_smith.png"
         ],
         "s-param": [
-          "./CSI_D3_PN/results/S_x1.png",
-          "./CSI_D3_PN/results/S_x3.png"
+          "./CSI_D3_Diff/S_x1.png",
+          "./CSI_D3_Diff/S_x3.png"
         ],
         "diff_delay": [
-          "./CSI_D3_PN/results/diff_delay.png"
+          "./CSI_D3_Diff/diff_delay.png"
         ],
         "diff_impedance": [
-          "./CSI_D3_PN/results/Z_diff.png"
+          "./CSI_D3_Diff/Z_diff.png"
         ],
         "diff_s-param": [
-          "./CSI_D3_PN/results/SDD_Diff.png"
+          "./CSI_D3_Diff/SDD_Diff.png"
         ],
         "s-param_and_smith": [
-          "./CSI_D3_PN/results/s_param_and_smith_1.png",
-          "./CSI_D3_PN/results/s_param_and_smith_3.png"
+          "./CSI_D3_Diff/s_param_and_smith_1.png",
+          "./CSI_D3_Diff/s_param_and_smith_3.png"
         ]
       },
-      "image": "./CSI_D3_PN/top_view.png"
+      "image": "./CSI_D3_Diff/top_view.png"
     }
   ]
 }
