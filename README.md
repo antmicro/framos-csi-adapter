@@ -1,6 +1,6 @@
 # Framos CSI Adapter
 
-Copyright (c) 2022 [Antmicro](https://www.antmicro.com>)
+Copyright (c) 2022-2025 [Antmicro](https://www.antmicro.com>)
 
 ![FSA to CSI Adapter](img/framos-csi-adapter.png)
 
